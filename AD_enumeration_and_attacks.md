@@ -9,5 +9,6 @@
 
 **Random infos**  
 * with NT SYSTEM / AUTHORITY priv on a machine you can enumerate AD without valid credentials
+
 **Tools**
 * https://academy.hackthebox.com/module/143/section/1517
