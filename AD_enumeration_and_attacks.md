@@ -29,4 +29,5 @@
   * nmap
     * $ sudo nmap -v -A -iL hosts.txt -oA ./nmap_output
 * Identifying Users
-  * 
+  * Kerbrute
+    * https://github.com/ropnop/kerbrute
