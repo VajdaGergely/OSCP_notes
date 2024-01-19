@@ -12,3 +12,5 @@
 
 **Tools**
 * https://academy.hackthebox.com/module/143/section/1517
+## Initial Enumeration of the Domain
+* 
