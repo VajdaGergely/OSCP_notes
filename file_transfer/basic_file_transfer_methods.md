@@ -1,3 +1,6 @@
 # Basic file transfer methods
-## HTTP
+## HTTP file transfer
+## SMB
 ## SCP
+## Meterpreter file transfer
+## etc...
