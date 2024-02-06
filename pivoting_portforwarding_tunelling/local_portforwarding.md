@@ -18,6 +18,5 @@ PORT   STATE SERVICE
 </pre>
 ## Local portforwarding with Meterpreter
 <pre>
-meterpreter> portfwd add -l 7878 -r &lt;victim_ip&gt; -p 631
-
+meterpreter> portfwd add -l 7878 -r &lt;victim_ip&gt; -p 8080
 </pre>
