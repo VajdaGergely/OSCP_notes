@@ -1,5 +1,5 @@
 # Local portforwarding withouth SSH
-## Local portforwarding with netcat
+## Local portforwarding with socat
 <pre>
 # download socat
 attack-host$ wget https://github.com/andrew-d/static-binaries/blob/master/binaries/linux/x86_64/socat
@@ -15,5 +15,8 @@ attack-host$ nmap -Pn -v victim-host.local -p4567
 PORT   STATE SERVICE
 4567/tcp open  http
 </pre>
-## socat??
-## chisel??
+## Local portforwarding with Meterpreter
+<pre>
+meterpreter> portfwd add -l 7878 -r &lt;victim_ip&gt; -p 631
+
+</pre>
