@@ -1,4 +1,5 @@
-# Local portforwarding withouth SSH
+# Local portforwarding
+## Local portforwarding with SSH
 ## Local portforwarding with socat
 <pre>
 # download socat
