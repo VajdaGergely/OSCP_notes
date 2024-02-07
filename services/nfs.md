@@ -10,6 +10,8 @@
   * van hozza feladat is, szoval lab-ban le is lehet tesztelni a mukodeset
 ## scans, enumeration, exploitation
 ### IMPORTANT !!!!
+nmap scripteket az rpc portra kell futtatni 111 nem az nfs portra 2049!!!
+### IMPORTANT !!!!
 * nmap scripts are buggy!!!!! Tobbszor meg kell probalni lefuttatni oket!!!!
 * es nem eleg sC-vel hanem egyesevel a konkret nevevel, 3-4szer is probaljuk meg
 ### scanning
