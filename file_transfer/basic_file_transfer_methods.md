@@ -1,3 +1,6 @@
+# TODO
+* htba file transfers modult nezzuk meg
+* ejpt repobol nezzuk meg a methodokat
 # Basic file transfer methods
 ## Base64 encode - decode - copy/paste between machines
 * Base64 encoding data on source machine
