@@ -19,4 +19,6 @@
 ## SMB file transfer
 ## SCP file transfer
 ## Meterpreter file transfer
-## etc...
+## Other solutions
+* RDP mounted drive
+* Http file upload server hosted on attack machine + power shell client script
