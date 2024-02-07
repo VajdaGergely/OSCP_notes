@@ -1,5 +1,18 @@
 # Local portforwarding
 ## Local portforwarding with SSH
+<pre>
+# basic simple
+ssh -L 1234:127.0.0.1:8080 user1@10.10.138.76
+
+# with private key
+ssh -i .ssh/id_rsa -L 1234:127.0.0.1:8080 user1@10.10.138.76
+
+# no terminal (open in backgrounds)
+# &: opens in background
+# -N: no prompt
+# >/dev/null 2>&1: block output and error
+ssh -N -L 1234:127.0.0.1:8080 user1@10.10.138.76 >/dev/null 2>&1 &
+</pre>
 ## Local portforwarding with socat
 <pre>
 # download socat
