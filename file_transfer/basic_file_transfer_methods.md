@@ -21,4 +21,4 @@
 ## Meterpreter file transfer
 ## Other solutions
 * RDP mounted drive
-* Http file upload server hosted on attack machine + power shell client script
+* HTTP file upload server hosted on attack machine + power shell client script
