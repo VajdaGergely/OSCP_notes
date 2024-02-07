@@ -6,14 +6,14 @@
 ## HTTP file transfer
 ### From Attack host to Victim host (Linux)
 * python web server + wget
-### From Victim host (Linux) to Attack host
-* python web server + wget
 ### From Attack host to Victim host (Windows)
 * python web server + powershell iwr
 * python web server + certutil
+### From Victim host (Linux) to Attack host
+* python web server + wget
 ### From Victim host (Windows) to Attack host
 ????
-### Alternatives
+### Alternatives for tools
 * alternatives for python: python3, python2.7, php, perl, ruby, ...
 * alternatives for wget: curl, powershell iwr, certutil
 ## SMB file transfer
