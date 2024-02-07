@@ -22,3 +22,4 @@
 ## Other solutions
 * RDP mounted drive
 * HTTP file upload server hosted on attack machine + power shell client script
+* Netcat pipes + redirect
