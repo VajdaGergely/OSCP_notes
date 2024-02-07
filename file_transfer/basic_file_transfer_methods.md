@@ -7,6 +7,7 @@
 ### From Attack host to Victim host (Linux)
 * python web server + wget
 ### From Victim host (Linux) to Attack host
+* python web server + wget
 ### Alternatives
 * alternatives for python: python3, python2.7, php, perl, ruby, ...
 * alternatives for wget: curl, ...
