@@ -2,7 +2,7 @@
 ## Basic privesc checks
 * whoami, groups, id
 * id user1 (ha a usernev is ott van akkor minden group latszik, amugy csak a main group amibe tartozik)
-* sudo -l, crontab -l, ls -la /etc/*cron*, ps aux
+* sudo -l, crontab -l, ls -la /etc/%2Acron%2A, ps aux
 * ls /home, ls /root, ls /, cat /etc/passwd, cat /etc/shadow
 * netstat -ano
   * netstat -ano | grep "127" (csak belulrol elerheto portok)
