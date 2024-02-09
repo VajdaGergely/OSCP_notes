@@ -3,7 +3,8 @@
 * whoami, groups, id
 * id user1 (ha a usernev is ott van akkor minden group latszik, amugy csak a main group amibe tartozik)
 * sudo -l, crontab -l, ls -la /etc/&ast;cron&ast;, ps aux
-* ls /home, ls /root, ls /, cat /etc/passwd, cat /etc/shadow
+* ls /home, ls /root, ls /, ls ./.ssh, ls /tmp
+* cat /etc/passwd, cat /etc/shadow
 * netstat -ano
   * netstat -ano | grep "127" (csak belulrol elerheto portok)
   * ss -ano (ha nincs netstat a gepen)
