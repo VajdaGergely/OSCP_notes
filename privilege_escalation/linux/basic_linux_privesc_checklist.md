@@ -11,3 +11,6 @@
   * vagy portforwarddal kirakjuk az attack gepre (ssh, socat, chisel, meterpreter...)
 * /var/www konyvtarat nezzuk at rendesen manualisan
 * ha tobb webserver van, akkor szet kell nezni tobb helyen, mert nem minden a /var/www mappaban van!
+* pspy64
+* linpeas, LinEnum
+* linux exploit suggester scriptek
