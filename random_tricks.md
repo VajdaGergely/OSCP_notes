@@ -5,8 +5,8 @@
 user$ echo 'abcdefgh' > file1
 user$ ls -l ./file1
 -rw-rw-r--  1 user user    9 Feb  9 18:47 file1
-user$ cat <b>!$</b>
-cat file1
+user$ <b>cat !$</b>
+<b>cat file1</b>
 abcdefgh
 </pre>
 **Ha nem az utolsot szeretnenk, akkor az alabbi segithet (a switch-eket is szamolja!!!)**
