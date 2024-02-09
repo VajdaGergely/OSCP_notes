@@ -24,6 +24,7 @@
 * readable files and folders
 * writeable files and folders
 * executable files and folders
+* relative file path of binaries, libs and script files
 ## Kernel exploits, OS vulns, OS util vulns, etc...
 * PwnKit, sudo serulekenysegek, stb...
 * 
