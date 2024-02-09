@@ -16,7 +16,8 @@
 * linpeas, LinEnum
 * linux exploit suggester scriptek
 ## Group memberships, privileges,
-* Group membership: docker, lxd, adm, sudo, 
+* Group membership: docker, lxd, adm, sudo,
+* GTFObins
 ## Kernel exploits, OS vulns, OS util vulns, etc...
 * PwnKit, sudo serulekenysegek, stb...
 * 
