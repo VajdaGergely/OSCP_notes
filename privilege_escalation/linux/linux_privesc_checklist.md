@@ -17,7 +17,12 @@
 * pspy64
 * linpeas, LinEnum
 * linux exploit suggester scriptek
-## SUID bits, capabilities
+## Other privesc checks
+* SUID files
+* capabilities
+* readable files and folders
+* writeable files and folders
+* executable files and folders
 ## Kernel exploits, OS vulns, OS util vulns, etc...
 * PwnKit, sudo serulekenysegek, stb...
 * 
