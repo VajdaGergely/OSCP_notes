@@ -12,12 +12,12 @@
   * vagy portforwarddal kirakjuk az attack gepre (ssh, socat, chisel, meterpreter...)
 * /var/www konyvtarat nezzuk at rendesen manualisan
 * ha tobb webserver van, akkor szet kell nezni tobb helyen, mert nem minden a /var/www mappaban van!
+* GTFObins
+* Group membership: docker, lxd, adm, sudo,
 * pspy64
 * linpeas, LinEnum
 * linux exploit suggester scriptek
-## Group memberships, privileges,
-* Group membership: docker, lxd, adm, sudo,
-* GTFObins
+## SUID bits, capabilities
 ## Kernel exploits, OS vulns, OS util vulns, etc...
 * PwnKit, sudo serulekenysegek, stb...
 * 
