@@ -14,7 +14,7 @@
 * /var/www konyvtarat nezzuk at rendesen manualisan
 * ha tobb webserver van, akkor szet kell nezni tobb helyen, mert nem minden a /var/www mappaban van!
 * GTFObins
-* Group membership: docker, lxd, adm, sudo,
+* Group membership: docker, lxd, adm, sudo, ...
 * pspy64
 * linpeas, LinEnum
 * linux exploit suggester scriptek
