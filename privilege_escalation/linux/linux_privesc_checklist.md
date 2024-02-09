@@ -2,7 +2,7 @@
 ## Basic privesc checks
 * whoami, groups, id
 * id user1 (ha a usernev is ott van akkor minden group latszik, amugy csak a main group amibe tartozik)
-* sudo -l, crontab -l, ls -la /etc/&ast;Acron&ast;, ps aux
+* sudo -l, crontab -l, ls -la /etc/&ast;cron&ast;, ps aux
 * ls /home, ls /root, ls /, cat /etc/passwd, cat /etc/shadow
 * netstat -ano
   * netstat -ano | grep "127" (csak belulrol elerheto portok)
@@ -15,7 +15,8 @@
 * pspy64
 * linpeas, LinEnum
 * linux exploit suggester scriptek
-## Group memberships, privileges, 
+## Group memberships, privileges,
+* Group membership: docker, lxd, adm, sudo, 
 ## Kernel exploits, OS vulns, OS util vulns, etc...
 * PwnKit, sudo serulekenysegek, stb...
 * 
