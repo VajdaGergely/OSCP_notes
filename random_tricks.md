@@ -16,15 +16,15 @@ user$ echo '22222222' > file2
 user$ echo '33333333' > file3
 user$ ls file1 file2 file3
 file1 file2 file3
-user$ cat <b>!:1</b>
-cat file1
+user$ <b>cat !:1</b>
+<b>cat file1</b>
 11111111
 user$ ls -l file1 file2 file3
 -rw-rw-r-- 1 user user 9 Feb  9 18:49 file1
 -rw-rw-r-- 1 user user 9 Feb  9 18:50 file2
 -rw-rw-r-- 1 user user 9 Feb  9 18:50 file3
-user$ cat <b>!:1</b>
-cat -la
+user$ <b>cat !:1</b>
+<b>cat -la</b>
 cat: invalid option -- 'l'
 Try 'cat --help' for more information.
 </pre>
