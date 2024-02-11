@@ -1,7 +1,7 @@
 # SMB enumeration and exploitation steps
 ## Basic enumeration
 * nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
-* smbclient -N -L \\10.10.10.3
+* smbclient -N -L \\10.10.10.3 (Null session)
 * smbclient \\\\10.10.10.3\\share1
 ## Nmap scripts
 
