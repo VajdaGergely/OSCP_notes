@@ -1,4 +1,4 @@
-**Kidolgozas alatt!!!! EJPT tananyagbol es mas helyekrol ki kell rendesen boviteni**
+# (Kidolgozas alatt!!!! EJPT tananyagbol es mas helyekrol ki kell rendesen boviteni)
 # SMB enumeration and exploitation steps
 ## Basic enumeration
 * nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
