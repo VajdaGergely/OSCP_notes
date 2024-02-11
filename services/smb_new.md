@@ -7,6 +7,15 @@
 ## Searching exploits for specific SMB versions
 * Get proper version of smb (nmap -sV nem mindig ad tokeletesen pontos vegeredmenyt)
   * nmap -Pn 10.10.10.3 -sT --script=smb-os-discovery
+## Null session
+* Amikor usernev nelkul be tudunk jelentkezni es latunk tartalmat, illetve rpc-n keresztul is tudunk interaktalni
+### Check null session
+* smbclient -N -L \\10.10.10.3
+### Interact through rpc
+* Windows
+  * rpcclient -N -U "" 10.10.10.3
+* Linux
+  * enum4linux 10.10.10.3
 ## Nmap scripts
 
 ## Password cracking
@@ -21,14 +30,14 @@
   * hydra -L user_list.txt -P ./rockyou.txt smb://10.10.10.3
 ## OS specific enum and attacks
 * sudo nmap -Pn 10.10.10.3 -sT -O
-### Linux SMB (Samba)
-* enum4linux 10.10.10.3
-### Windows SMB
-* rpcclient -N -U "" 10.10.10.3
+### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
+* SMBv1-nek engedelyezve kell lennie hozza
+* Windows OS serulekeny, Linux nem, az alabbi OS verziok erintettek
+  * Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016
+#### SMBv1 ellenorzese (engedelyezve van e)
 * nmap -Pn 10.10.10.3 -sT --script=smb-protocols
-  * ha SMBv1 engedelyezett, akkor EternalBlue-t nezzuk meg (EternalBlue, MS-17-010, 
-    * csak Windowson van EternalBlue, Linuxon nincs!
-    * Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016 (ezek a Win OS-ek erintettek)
-    * nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
-      * ha serulekeny, akkor mehet az eploit - msf valtozat vagy manualis searchsploit-os
-      * 
+#### EternalBlue vulnerability test
+* nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
+#### Exploitation (ha serulekeny)
+* msf module
+* exploitdb code
