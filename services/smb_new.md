@@ -6,4 +6,4 @@
 ### Linux SMB (Samba)
 * enum4linux 10.10.10.3
 ### Windows SMB
-* 
+* rpcclient -N -U "" 10.10.10.3
