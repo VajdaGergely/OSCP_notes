@@ -7,6 +7,9 @@
 ## Searching exploits for specific SMB versions
 * Get proper version of smb (nmap -sV nem mindig ad tokeletesen pontos vegeredmenyt)
   * nmap -Pn 10.10.10.3 -sT --script=smb-os-discovery
+* Search for vulnerabilities of specific SMB version
+  * msfconsole
+  * searchsploit
 ## Null session
 * Amikor usernev nelkul be tudunk jelentkezni es latunk tartalmat, illetve rpc-n keresztul is tudunk interaktalni
 ### Check null session
@@ -40,4 +43,4 @@
 * nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
 #### Exploitation (ha serulekeny)
 * msf module
-* exploitdb code
+* searchsploit
