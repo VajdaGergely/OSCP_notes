@@ -1,3 +1,4 @@
+**Kidolgozas alatt!!!! EJPT tananyagbol es mas helyekrol ki kell rendesen boviteni**
 # SMB enumeration and exploitation steps
 ## Basic enumeration
 * nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
@@ -9,7 +10,10 @@
 ## Nmap scripts
 
 ## Password cracking
-
+* Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
+* Ha megis user nelkul akarjuk csinalni akkor celszeru admin userrel tolni (amirol ugye tudjuk hogy mindig ott van)
+  * Windows SMB -> 'Administrator'
+  * Linux SMB (Samba) -> 'root'
 ## OS specific enum and attacks
 * sudo nmap -Pn 10.10.10.3 -sT -O
 ### Linux SMB (Samba)
