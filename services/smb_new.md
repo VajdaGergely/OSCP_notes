@@ -13,4 +13,10 @@
 * enum4linux 10.10.10.3
 ### Windows SMB
 * rpcclient -N -U "" 10.10.10.3
-* ha SMBv1 allowed es az OS Windows (pontosabban: Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016)
+* nmap -Pn 10.10.10.3 -sT --script=smb-protocols
+  * ha SMBv1 engedelyezett, akkor EternalBlue-t nezzuk meg (EternalBlue, MS-17-010, 
+    * csak Windowson van EternalBlue, Linuxon nincs!
+    * Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016 (ezek a Win OS-ek erintettek)
+    * nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
+      * ha serulekeny, akkor mehet az eploit - msf valtozat vagy manualis searchsploit-os
+      * 
