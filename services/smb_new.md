@@ -15,9 +15,8 @@
 ### Check null session
 * smbclient -N -L \\10.10.10.3
 ### Interact through rpc
-* Windows
+* Windows es Linux (elvileg mindket OS-en megy mind a ketto command)
   * rpcclient -N -U "" 10.10.10.3
-* Linux
   * enum4linux 10.10.10.3
 ## Nmap scripts
 
