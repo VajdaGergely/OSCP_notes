@@ -18,7 +18,10 @@
 * Windows es Linux (elvileg mindket OS-en megy mind a ketto command)
   * rpcclient -N -U "" 10.10.10.3
   * enum4linux 10.10.10.3
+
 ## Nmap scripts
+* ...
+* <i>(Csak azokat a scripteket gyujtsuk ide ossze amikkel tudjuk is hogy utana mit akarunk csinalni, mire jo az output, hogy kell ertelmezni azokat...)</i>
 ## User enumeration
 * ha rpcclient-el vagy enum4linux-al (vagy mas egyebbel) userneveket talalunk
   * Windows-ben ezek Windows userek lesznek! Nincs kulon service user az SMB-hez
