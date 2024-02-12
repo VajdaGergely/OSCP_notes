@@ -31,6 +31,14 @@
     * hydra -l root -p ./rockyou.txt smb://10.10.10.3
 * Ha jo tippunk van a usernevre, vagy tudunk 10-20at ami nagyon igeretes, (vagy ismerjuk az osszes usernevet valahonnan), akkor toljuk user es password listaval
   * hydra -L user_list.txt -P ./rockyou.txt smb://10.10.10.3
+* Lehet password sparying-et is csinalni, es akkor valami user listan megyunk vegig 1-2 default jelszoval
+  * Az segithet ha szerzunk listat a tenyleges userekrol
+  * Az is segithet, ha valahol talalunk egy jelszot - user nelkul, es azt hasznaljuk password sprayingra
+## AD domain-ben teljesen mas modon is lehet tamadni az SMB-t
+* Ha vannak userek, akkor Responderrel megprobalhatunk NTLM hash-t capture-olni, vagy tovabb relay-elni
+* A hash-t feltorhetjuk vagy PassTheHash attack-el authentikalunk valahova
+* Crackmapexec-el sok mindent lehet csinalni SMB keresztul
+* ...
 ## OS specific enum and attacks
 * sudo nmap -Pn 10.10.10.3 -sT -O
 ### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
