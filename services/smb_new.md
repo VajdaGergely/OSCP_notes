@@ -52,8 +52,8 @@
 ##### EternalBlue vulnerability test
 * nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
 ##### Exploitation (ha serulekeny)
-* msf module
-* searchsploit
+* msf module vagy searchsploit exploit
+* automatikusan NT SYSTEM / AUTHORITY shell-t kapunk vele
 #### AD domain-ben teljesen mas modon is lehet tamadni az SMB-t
 * Ha vannak userek, akkor Responderrel megprobalhatunk NTLM hash-t capture-olni, vagy tovabb relay-elni
 * A hash-t feltorhetjuk vagy PassTheHash attack-el authentikalunk valahova
