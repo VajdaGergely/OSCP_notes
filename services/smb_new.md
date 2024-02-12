@@ -42,6 +42,7 @@
 ## OS specific enum and attacks
 ### Get OS of victim machine
 * sudo nmap -Pn 10.10.10.3 -sT -O
+* msf module
 ### Windows Attacks
 #### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
 * SMBv1-nek engedelyezve kell lennie hozza
