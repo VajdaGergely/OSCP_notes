@@ -19,7 +19,10 @@
   * rpcclient -N -U "" 10.10.10.3
   * enum4linux 10.10.10.3
 ## Nmap scripts
-
+## User enumeration
+* ha rpcclient-el vagy enum4linux-al (vagy mas egyebbel) userneveket talalunk
+  * Windows-ben ezek Windows userek lesznek! Nincs kulon service user az SMB-hez
+    * Lehetnek local userek, vagy AD userek is, ha a gep AD-ban kotve (ott valszeg domain/ is lesz a usernev elott)
 ##  Bruteforcing SMB credentials
 * Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
   * hydra -l user1 -P ./rockyou.txt smb://10.10.10.3
