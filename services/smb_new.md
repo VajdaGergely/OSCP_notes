@@ -39,6 +39,8 @@
 * Lehet password sparying-et is csinalni, es akkor valami user listan megyunk vegig 1-2 default jelszoval
   * Az segithet ha szerzunk listat a tenyleges userekrol
   * Az is segithet, ha valahol talalunk egy jelszot - user nelkul, es azt hasznaljuk password sprayingra
+* Ha PSExec-hez akarunk bruteforcolni
+  * Akkor ott egybol az 'Administrator' account-ot bruteforcoljuk
 ## OS specific enum and attacks
 ### Get OS of victim machine
 * sudo nmap -Pn 10.10.10.3 -sT -O
