@@ -64,6 +64,7 @@
 * ...
 #### PSexec
 * Admin jogosultsag kell hozza
+  * Azert kell admin, mert service-t kell elinditani (vagy piszkalni valahogy) es azt mezei user joggal nem lehet
 * NT SYSTEM / AUTHORITY shell-t kapunk vele
 ## etc
 ### message signing
