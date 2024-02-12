@@ -23,6 +23,9 @@
 * ha rpcclient-el vagy enum4linux-al (vagy mas egyebbel) userneveket talalunk
   * Windows-ben ezek Windows userek lesznek! Nincs kulon service user az SMB-hez
     * Lehetnek local userek, vagy AD userek is, ha a gep AD-ban kotve (ott valszeg domain/ is lesz a usernev elott)
+## Ha valid credential-oket szerzunk
+* Barmit enumeraltunk eddig SMB-n az uj userekkel ujra vegig kell menni mindenen -> share-ek, rpc, ...
+  * Az uj user hozzaferhet olyasmihez amihez az elozo user nem fert hozza!!!
 ##  Bruteforcing SMB credentials
 * Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
   * hydra -l user1 -P ./rockyou.txt smb://10.10.10.3
