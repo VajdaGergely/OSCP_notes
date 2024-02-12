@@ -52,3 +52,11 @@
 #### Exploitation (ha serulekeny)
 * msf module
 * searchsploit
+## etc
+### message signing
+* az alabbi ertekeket kaphatja
+  * enabled
+  * enabled but not required
+  * disabled
+* not required vagy diasbled, akkor lehet sniffingelni (pl Responderrel valszeg)
+* allitolag a PSExec hasznalathoz is kell hogy not required vagy disabled legyen (de ez valszeg false info...)
