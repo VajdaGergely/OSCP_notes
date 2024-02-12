@@ -6,7 +6,9 @@
 * the tipical attack is
   * bruteforcing credentials, (or searching private key files in the victims home directory or in other places)
   * exploiting vulnerable ssh version
-
+## OpenSSH serulekenysegek
+* kifejezetten keves van beloluk
+* erdemes lecsekkolni mindig az adott verziot de ha nem lesz ra semmi serulekenyseg akkor azon ne lepeodjunk meg!
 ## login with ssh
 ssh 192.202.224.3  
 ssh username@192.202.224.3  
