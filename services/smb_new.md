@@ -54,6 +54,9 @@
 * searchsploit
 ## etc
 ### message signing
+* igy lehet megnezni
+  * nmap -Pn 10.10.10.3 -sT --script=smb-security-mode
+  * nmap -Pn 10.10.10.3 -sT --script=smb2-security-mode
 * az alabbi ertekeket kaphatja
   * enabled
   * enabled but not required
