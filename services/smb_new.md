@@ -45,6 +45,12 @@
 ### Get OS of victim machine
 * sudo nmap -Pn 10.10.10.3 -sT -O
 * msf module
+### Linux Attacks
+#### Example Vulnerable Samba Version - Samba 3.0.20
+* user_map valami exploit van hozza
+* msf module van ra, (lehet hogy sima exploitdb-s is de az nem biztos)
+* nem kell cred a futtatashoz
+* es root shell-t ad
 ### Windows Attacks
 #### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
 * SMBv1-nek engedelyezve kell lennie hozza
