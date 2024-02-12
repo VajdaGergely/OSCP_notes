@@ -21,7 +21,7 @@
   * enum4linux 10.10.10.3
 ## Nmap scripts
 
-## Password cracking
+##  Bruteforcing SMB credentials
 * Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
   * hydra -l user1 -P ./rockyou.txt smb://10.10.10.3
 * Ha megis user nelkul akarjuk csinalni akkor celszeru admin userrel tolni (amirol ugye tudjuk hogy mindig ott van)
