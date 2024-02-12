@@ -18,7 +18,12 @@
 * Windows es Linux (elvileg mindket OS-en megy mind a ketto command)
   * rpcclient -N -U "" 10.10.10.3
   * enum4linux 10.10.10.3
-
+## File transfers with SMB
+* Ha van valami a share-ben mar eleve, akkor azt le tudjuk tolteni
+* Ha lehet feltolteni, akkor webshell-t feltolthetunk vagy mas egyebet, ami valahogy lefut magatol a server oldalon, vagy elerem mashonnan pl HTTP-n es en tudom majd futtatni
+* Ha initial foothold meg volt, akkor
+  * Tool-okat tudok felmasolni, pl SharpHound
+  * Vagy ertekes adatokat, tool output-ot tudok letolteni (id_rsa, sharphound result file-ok, stb...)
 ## Nmap scripts
 * ...
 * <i>(Csak azokat a scripteket gyujtsuk ide ossze amikkel tudjuk is hogy utana mit akarunk csinalni, mire jo az output, hogy kell ertelmezni azokat...)</i>
