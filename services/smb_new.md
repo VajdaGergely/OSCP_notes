@@ -25,7 +25,7 @@
     * Lehetnek local userek, vagy AD userek is, ha a gep AD-ban kotve (ott valszeg domain/ is lesz a usernev elott)
 ## Ha valid credential-oket szerzunk
 * Barmit enumeraltunk eddig SMB-n az uj userekkel ujra vegig kell menni mindenen -> share-ek, rpc, ...
-  * Az uj user hozzaferhet olyasmihez amihez az elozo user nem fert hozza!!!
+  * Az uj user hozzaferhet olyasmihez amihez az elozo user nem fert hozza, es uj dolgok is latszodhatnak amik eddig nem latszodtak!
 ##  Bruteforcing SMB credentials
 * Keressunk usert hozza, anelkul nem sok ertelme van elkezdeni.
   * hydra -l user1 -P ./rockyou.txt smb://10.10.10.3
@@ -39,24 +39,29 @@
 * Lehet password sparying-et is csinalni, es akkor valami user listan megyunk vegig 1-2 default jelszoval
   * Az segithet ha szerzunk listat a tenyleges userekrol
   * Az is segithet, ha valahol talalunk egy jelszot - user nelkul, es azt hasznaljuk password sprayingra
-## AD domain-ben teljesen mas modon is lehet tamadni az SMB-t
+## OS specific enum and attacks
+### Get OS of victim machine
+* sudo nmap -Pn 10.10.10.3 -sT -O
+### Windows Attacks
+#### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
+* SMBv1-nek engedelyezve kell lennie hozza
+* Windows OS serulekeny, Linux nem, az alabbi OS verziok erintettek
+  * Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016
+##### SMBv1 ellenorzese (engedelyezve van e)
+* nmap -Pn 10.10.10.3 -sT --script=smb-protocols
+##### EternalBlue vulnerability test
+* nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
+##### Exploitation (ha serulekeny)
+* msf module
+* searchsploit
+#### AD domain-ben teljesen mas modon is lehet tamadni az SMB-t
 * Ha vannak userek, akkor Responderrel megprobalhatunk NTLM hash-t capture-olni, vagy tovabb relay-elni
 * A hash-t feltorhetjuk vagy PassTheHash attack-el authentikalunk valahova
 * Crackmapexec-el sok mindent lehet csinalni SMB keresztul
 * ...
-## OS specific enum and attacks
-* sudo nmap -Pn 10.10.10.3 -sT -O
-### Eternal Blue (MS-17-010) (CVE-2017-0144) (Csak Windows!)
-* SMBv1-nek engedelyezve kell lennie hozza
-* Windows OS serulekeny, Linux nem, az alabbi OS verziok erintettek
-  * Windows Vista, 7, 8.1, 10 Windows Server 2008, Server 2012, Server 2016
-#### SMBv1 ellenorzese (engedelyezve van e)
-* nmap -Pn 10.10.10.3 -sT --script=smb-protocols
-#### EternalBlue vulnerability test
-* nmap -Pn 10.10.10.3 -sT --script=smb-vuln-ms17-010
-#### Exploitation (ha serulekeny)
-* msf module
-* searchsploit
+#### PSexec
+* Admin jogosultsag kell hozza
+* NT SYSTEM / AUTHORITY shell-t kapunk vele
 ## etc
 ### message signing
 * igy lehet megnezni
