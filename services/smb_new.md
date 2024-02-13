@@ -91,3 +91,86 @@
   * disabled
 * not required vagy diasbled, akkor lehet sniffingelni (pl Responderrel valszeg)
 * allitolag a PSExec hasznalathoz is kell hogy not required vagy disabled legyen (de ez valszeg false info...)
+## random tovabbi cuccok
+<pre>
+smbmap
+lehet vele kodot is futtatni
+
+elvileg linuxon meg windowson is megy
+
+google> psexec.py vs smbmap
+</pre>
+<pre>
+ha smbclienttel csatlakozunk egy linux gephez akkor ott lehet hogy a \\\\ip helyett //ip modon kell megadnunk a targetet
+</pre>
+<pre>
+google> smbmap command execution on linux??
+</pre>
+<pre>
+enum4linux ki tudja szedni a password policyt ami password sprayinghez bruteforcinghoz nagyon hasznos lehet!
+</pre>
+<pre>
+[nmap scripts]
+smb-protocols
+milyen smb verziok tamogatottak
+-v1 windowson serulekeny eternal blue-ra
+
+smb-security-mode
+smb2-security-mode
+(netes dokumentacio hasznos a v1-hez ott sok lehetoseg van)
+-account used
+-message signing disabled (nem tudjuk mire jo)
+</pre>
+<pre>
+smb-enum-sessions
+kik vannak bejelentkezve epp
+</pre>
+<pre>
+share-eket ne smbclienttel enumeraljunk kizarolag
+
+nmap smb-enum-shares, smbmap, enum4linux -> sokkal faszabb outputot adnak
+</pre>
+<pre>
+ha semmi sem megy az smb-n akkor vegso soron elkezdhetunk rajta mindenfele enzmetation scripteket tolni! De tenyleg csak a legvegen szarozzunk ilyesmivel
+
+Smbmap, enum4linux, nmap scripts
+</pre>
+<pre>
+szinte minden scriptnel jelentosege van hogy adunk e meg user credet hozza illetve hogy melyikeket
+</pre>
+<pre>
+smb-enum-shares, smb-ls
+ha igy futtatjuk a ket nmap scriptet akkor rekurzivan kilistazza nekunk a tartalmat a share-eknek
+</pre>
+<pre>
+null session
+-elvileg SMBv1 kell hozza es csak ott mukodik...
+</pre>
+<pre>
+smbmap-al lehet parancsot futtatni--
+</pre>
+<pre>
+nem tolt be egy uzenetet
+az volt az uzi hogy smbmap-al lehet parancsot is futtatni...
+
+-----
+
+Ha van null session es az IPC share elerheto akkor mindenkepp menjunk ra az rpcclient-el!!
+linuxon is mukodik meg windowson is!!
+</pre>
+<pre>
+Ha null session mukodik vagy van mar egy darab valid userunk
+--> akkor az osszes tobbi usert is le tudjuk kerni!!! valamelyik script vagy tool tuti hogy visszaadja!!
+nmap, smbmap, enum4linux, ...
+</pre>
+<pre>
+*** tool listahoz -> rpcclient
+</pre>
+<pre>
+ha share-eket enumeralunk
+abbol is kiderulhetnek userek!!
+
+most mar ne ugy tekintsunk az smb-re mint egy service a sok kozul!!!
+hanem ez egy kozponti resze az OS-eknek es nagyon melyen atszovi az OS fintos reszeit!!!
+es ezen keresztul sok informaciot tudunk gyujteni amit utana akar teljesen mas helyeken fogunk majd valamihez felhasznalni!!!!
+</pre>
