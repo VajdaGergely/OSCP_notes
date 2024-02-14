@@ -25,3 +25,7 @@ search your created notification (in the notifications list) and click on the ch
 click on 'Send test notification'  
 connect to the machine with the created user  
 <pre>sudo crackmapexec smb 10.129.201.50 -u prtgadm1 -p Password_123</pre>
+## ha hozzaferunk a fajlrendszerhez
+* C:\ProgramData\Paessler mappa a default mappa ahol a config fajlok vannak
+* Ott lehet siman config adat ami plain text
+* Nagy file-ok vannak arra fele, ugyesen kell atnezni, valahogy greppelve
