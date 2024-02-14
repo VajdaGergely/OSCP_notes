@@ -1,4 +1,4 @@
-# Checklist
+# Service Enumeration Checklist
 ## FTP
 * check anonymous access
 * 
