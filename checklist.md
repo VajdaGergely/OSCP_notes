@@ -1,6 +1,8 @@
 # Checklist
 ## FTP
+* anonymous access
+* 
 ## SSH
 ## SMB
-## HTTP
+## HTTP (and other HTTP-like traffic e.g. web proxys, CMS systems, ...)
 ## RDP
