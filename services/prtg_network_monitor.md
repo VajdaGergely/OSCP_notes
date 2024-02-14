@@ -29,3 +29,8 @@ search your created notification (in the notifications list) and click on the ch
 click on 'Send test notification'  
 connect to the machine with the created user  
 <pre>sudo crackmapexec smb 10.129.201.50 -u prtgadm1 -p Password_123</pre>
+reverse shell
+<pre>
+psexec...
+evil-winrm...
+</pre>
