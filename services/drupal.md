@@ -4,6 +4,8 @@ sudo pip3 install droopescan
 droopescan scan drupal -u http://10.10.10.1/  
 ## get drupal version without credentials
 * CHANGELOG.txt fajl-ban ott van!!!
+## local files
+* /sites/default/settings.php
 ## exploiting
 nehezebb tema mint a wordpress vagy joomla eseteben
 ### leveraging the php filter module
