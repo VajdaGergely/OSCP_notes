@@ -4,11 +4,19 @@
 * 
 ## SSH
 ## SMB
-* check null session
+* check null session and RPC
   * if allowed enumerate the shares
-* check RPC
-  * if allowed query user and system information
-* check version
+  * if allowed query user and system information through RPC  
+* if you already have credentials
+  * enumerate shares with the obtained credentials one by one (different results could be given with different users)
+  * if RPC enabled  query user and system information
+* if you obtained admin credentials
+  * login to the machine with PsExec
+* if the machine is domain joined (and you assume that user interaction is simulated)
+  * start Responder and get user ntlm hash
+    * that can be cracked or used in a pass the hash attack
+  * start ntlmrelayx and relay ntlm traffic
+* check SMB service version
   * if vulnerable use a proper exploit to that specific version
 * bruteforce login credentials
   * use usernames that
