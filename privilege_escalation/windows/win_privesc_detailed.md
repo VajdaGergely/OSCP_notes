@@ -9,5 +9,8 @@
     * https://www.powershellgallery.com/packages/PoshPrivilege/0.3.0.0/Content/Scripts%5CEnable-Privilege.ps1
     * https://www.leeholmes.com/adjusting-token-privileges-in-powershell/
 <pre>
-C:\> 
+C:\> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+C:\> Import-Module .\EnableAllTokenPrivs.ps1
+C:\> Enable-Privilege -Privilege SeAssignPrimaryTokenPrivilege
+C:\> whoami /priv (most mar elvileg Enabled lett)
 </pre>
