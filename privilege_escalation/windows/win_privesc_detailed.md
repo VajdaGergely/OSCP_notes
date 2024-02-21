@@ -10,7 +10,7 @@
       * https://www.powershellgallery.com/packages/PoshPrivilege/0.3.0.0/Content/Scripts%5CEnable-Privilege.ps1
     * ez mukodott
       * https://www.leeholmes.com/adjusting-token-privileges-in-powershell/
-* Eloszor futtassuk a JuciyPotato binary-t uresen. Ki kell hogy adja e help menut.
+* Eloszor futtassuk a JuicyPotato binary-t uresen. Ki kell hogy adja e help menut.
 * Utana parameteresen futtassuk
   * Ha hiba van, erdemes megnezni egyesevel a cmd es nc binary-kat az absolute uttal, hogy jok e
   * Ha COM recv hiba van, akkor masik clsid-t probaljunk meg
