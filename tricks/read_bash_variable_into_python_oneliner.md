@@ -1,0 +1,1 @@
+# read_bash_variable_into_python_oneliner.md
