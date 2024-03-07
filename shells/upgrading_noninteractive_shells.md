@@ -6,6 +6,7 @@
 ## python shell
 * which python vagy python --version
 * python -c 'import pty;pty.spawn("/bin/bash")'
+* python3 -c 'import pty;pty.spawn("/bin/bash")'
 ## perl shell
 * perl --help
 * perl -e 'exec "/bin/bash";'
