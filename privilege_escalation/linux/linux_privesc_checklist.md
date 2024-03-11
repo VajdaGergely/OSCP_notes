@@ -15,7 +15,7 @@
 * ha tobb webserver van, akkor szet kell nezni tobb helyen, mert nem minden a /var/www mappaban van!
 * pspy64
 * Group membership: docker, lxd, adm, sudo, ...
-* futtathato fajlok a user home folder-ben
+* futtathato fajlok a user home folder-ben (vagy mas egyeb helyen)
   * ha barmit sudoval futtat az gyanus
     * nezzuk meg hogy GTFO bin fajl e a sudoval futtatott fajl
   * alapbol nezzuk meg hogy GTFO bin fajl e
