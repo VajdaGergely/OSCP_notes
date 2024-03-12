@@ -4,7 +4,9 @@
   * Ha a victim gepen futtatjuk lokalba, akkor az mivel domain joined, a dc-hez fordul a dc ldap portjan keresztul es onnan keri le az infokat es utana a victim gepen visszajon az output (vagy a terminalba powershell scriptnel vagy kiirodik a fajlrendszerbe a sharphound-nal)
   * Ha a kalirol futtatjuk remote-ba akkor
     * vagy a dc maga a victim gep, es vele kommunikalunk, nyilvan akkor a nyitott ldap porton keresztul (ahova valoszinuleg manualis ldap kereseket is kuldhetnenk egyebkent)
-    * vagy a victim gep a cel es valahogy azon keresztul csatornazodik at a forgalom 
+    * vagy a victim gep a cel es valahogy azon keresztul csatornazodik at a forgalom a dc -re (bar valszeg ebben az esetben ha at tud csatornazodni, akkor igazabol mi is be tudnank lepni valami shell-en keresztul a victim gepre)
+      * vagy lehet hogy valami limitacio van, pl rpc-n keresztul kuld commandot vagy mas egyeb modon, amin keresztul shell acces nem megoldhato (tehat kvazi csak sima RCE van es terminal access nincs)
+      * vagy lehet hogy valahogy domain joined lesz a kali is ideiglenesen, bar ez nem tul valoszinu eset...
 ## Methods
 * From Windows
   * What is needed
