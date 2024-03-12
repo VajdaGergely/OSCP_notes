@@ -1,5 +1,4 @@
-# Random tricks
-## Get the argument of the last command and use it
+# Get the argument of the last command and use it
 **Ha tobb az argument, akkor az utolsot valasztja ki!!!**
 <pre>
 user$ echo 'abcdefgh' > file1
