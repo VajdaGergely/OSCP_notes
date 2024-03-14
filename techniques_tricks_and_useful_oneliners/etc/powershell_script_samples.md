@@ -1,4 +1,5 @@
 # Powershell script samples
+## Get raw output (get only the value of choosen result field)
 <pre>
 PS C:\> Get-FileHash .\test.txt
 Algorithm       Hash                                                                   Path
