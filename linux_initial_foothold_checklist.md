@@ -24,3 +24,9 @@
     * Try to read web server source code
     * Try to exploit flaws to get RCE
     * Make reverse shell access through RCE
+# Potential further steps
+* Privilege escalation to root or another user
+* Pivoting to another subnet (if the machine has another NIC and connected to another subnet)
+* Pillaging for other credentials
+* Get domain user credentials!
+  * It is needed to do AD enumeration
