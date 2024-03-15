@@ -1,12 +1,13 @@
 # Linux initial foothold checklist
 * Get RCE through a public exploit
 * Get shell through a public exploit
-* Upload webshell and get RCE through it
-  * Use web application's built in file upload function to upload webshell if it is presented and open uploaded file through web application
-  * Use FTP to upload webshell in web folder if it is can be done, and open uploaded file through web application
-  * Instead of webshell you can upload a reverse shell coded in the appropriate web language and skip RCE and get terminal access instantly
-* Upload self-made SSH keys and gain SSH access to a user
-  * Overwriting existing SSH key can be done too. But it can be dangerous
+* File upload capability to web server or a local file system share like FTP, SMB, ...
+  * Upload webshell and get RCE through it
+    * Use web application's built in file upload function to upload webshell if it is presented and open uploaded file through web application
+    * Use FTP to upload webshell in web folder if it is can be done, and open uploaded file through web application
+    * Instead of webshell you can upload a reverse shell coded in the appropriate web language and skip RCE and get terminal access instantly
+  * Upload self-made SSH keys and gain SSH access to a user
+    * Overwriting existing SSH key can be done too. But it can be dangerous
 * Look for usernames and try to reuse them somewhere else
 * Access sensitive files that leak credentials, hashes, ssh keys or other secrets
   * that can be used to login through SSH, RDP, ...
