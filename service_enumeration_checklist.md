@@ -3,6 +3,14 @@
 * check anonymous access
 * 
 ## SSH
+* check for vulnerable service
+* bruteforce login credentials
+* if private key found
+  * try to login with it
+  * crack passphrase if it is needed
+* upload self-made ssh keys
+  * for users who havent got one yet
+  * override existing keys if it can be done
 ## SMB
 * check null session and RPC
   * if allowed enumerate the shares
@@ -39,4 +47,9 @@
 * nmap default scripts (-sC)
 * whatweb
 * gobuster
+  * small list, big list
+  * without extensions, with extensions (ext should matches to the webserver type)
+  * recursive scans should be made when directory found (and its not publicly traversable)
+* manual examination of the web content
+* burp traffic analyses
 ## RDP
