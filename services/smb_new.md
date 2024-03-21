@@ -1,9 +1,11 @@
 # (Kidolgozas alatt!!!! EJPT tananyagbol, HTBa module-okbol es mas helyekrol ki kell rendesen boviteni)
 # SMB enumeration and exploitation steps
 ## Basic enumeration
-* nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
-* smbclient -N -L \\10.10.10.3 (Null session)
-* smbclient \\\\10.10.10.3\\share1
+<pre>
+$ nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
+$ smbclient -N -L \\10.10.10.3 (Null session)
+$ smbclient \\\\10.10.10.3\\share1
+</pre>
 ## Searching exploits for specific SMB versions
 * Get proper version of smb (nmap -sV nem mindig ad tokeletesen pontos vegeredmenyt)
   * nmap -Pn 10.10.10.3 -sT --script=smb-os-discovery
