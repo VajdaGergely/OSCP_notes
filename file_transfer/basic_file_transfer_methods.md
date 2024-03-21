@@ -37,6 +37,10 @@ C:\> certutil -urlcache -split -f http://10.10.10.2:8000/file.txt
 ### Alternatives for tools
 * alternatives for python: python3, python2.7, php, perl, ruby, ...
 * alternatives for wget: curl, powershell iwr, certutil
+## Netcate redirect file transfer
+<pre>
+dolgozzuk ki szepen
+</pre>
 ## SMB file transfer
 ## SCP file transfer
 ## Meterpreter file transfer
