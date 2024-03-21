@@ -1,7 +1,9 @@
 # Service Enumeration Checklist
 ## FTP
 * check anonymous access
-* 
+* check vulnerable versions
+* brute force crendetials
+* download or upload files
 ## SSH
 * check for vulnerable service
 * bruteforce login credentials
