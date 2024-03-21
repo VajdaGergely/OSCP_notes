@@ -18,6 +18,9 @@
 * futtathato fajlok a user home folder-ben (vagy mas egyeb helyen)
   * ha barmit sudoval futtat az gyanus
     * nezzuk meg hogy GTFO bin fajl e a sudoval futtatott fajl
+    * nagyon fontos, hogy ha a sudo-val futtatott fajlban egyeb random parameterek is vannak, sokszor azok is kellenek hogy futni tudjon
+      * ezt ugy lehet tesztelni, hogy ha nem jo, akkor jelszot ker, es ha vegigprobalgatjuk a parameterek elhagyasaval vagy hozzaadogatasaval, akkor ha nem ker jelszot, akkor rendesen le tud futni
+     * nyilvan ha tudjuk a sudo jelszot, akkor ez nem annyira lenyeges...
   * alapbol nezzuk meg hogy GTFO bin fajl e
   * ha relativ path van egy fajlhoz amit futtat, akkor azt felulirhatjuk lokal fajlba
   * ha so fajlt importal relative path-kent, akkor a path chain-ben kell lennie egy irhato mappanak, ahova berakhatjuk a malicious valtoztatot
