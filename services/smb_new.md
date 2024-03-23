@@ -1,5 +1,11 @@
 # (Kidolgozas alatt!!!! EJPT tananyagbol, HTBa module-okbol es mas helyekrol ki kell rendesen boviteni)
 # SMB enumeration and exploitation steps
+## Searching for vulnerabilites
+* lecsekkolhatjuk egybe az osszes SMB serulekenyseg-re vonatkozo scriptet nmap-al
+* kb minden script Windows SMB-re vonatkozik, de attol toljuk ra, hatha van kozte valami nem csak arra...
+<pre>
+$ nmap -Pn 10.10.10.10 -sT --script=smb-vuln*
+</pre>
 ## Basic enumeration
 <pre>
 $ nmap -Pn 10.10.10.3 -p137,138,139,445 -sT -sV -sC
