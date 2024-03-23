@@ -1,16 +1,20 @@
 # SMB
 ## null session
+<pre>
 smbclient -N -L \\\\192.251.169.3  
 smbclient \\\\192.251.169.3\\public  
 rpcclient 192.251.169.3 -U'' -N  
 * lehet hogy ezt forditva kell
 * $ rpcclient -U '' -N 10.10.10.3
+</pre>
 ## login bruteforcing
 ### metasploit
 auxiliary/scanner/smb/smb_login  (rhosts, smbuser|user_file, smbpass|pass_file)
 ### hydra
+<pre>
 hydra -l admin -p Pass123 smb://192.38.1.3  
 hydra -L user_list.txt -P pass_list.txt smb://192.38.1.3  
+</pre>
 ### 
 
 ## Nmap SMB scripts
@@ -54,11 +58,13 @@ smbmap -u administrator -p smbserver_771 -H 10.2.18.153 --delete 'C$\Program Fil
 ## nmblookup
 nmblookup -A 192.251.169.3  //by ip  
 ## smbclient
+<pre>
 smbclient -L \172.16.5.35 -U peter  
 smbclient -N -L \172.16.5.35 -U peter  
 smbclient -L \172.16.5.35 -U peter%password  
 smbclient \\172.16.5.35\Users -U peter%password  
 smbclient -U jason \\10.129.203.6\GGJ  
+</pre>
 ## rpcclient
 srvinfo  
 netshareenum  
