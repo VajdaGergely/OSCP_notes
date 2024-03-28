@@ -36,8 +36,8 @@
     * C:\> dir "C:\Program Files"
     * C:\> dir "C:\Program Files (x86)"
 ## File permissions
+* cmd
 <pre>
-<b># cmd</b>
 C:\> icacls "C:\Users\user1\desktop\test.exe"
 C:\Users\user1\desktop\test.exe
 BUILTIN\Administrators:(F)
@@ -45,8 +45,9 @@ NT AUTHORITY\SYSTEM:(F)
 BUILTIN\Users:(RX)
 NT AUTHORITY\Authenticated Users:(RX)
 Successfully processed 1 files; Failed processing 0 files
-
-<b># powershell</b>
+</pre>
+* powershell
+<pre>
 PS> Get-Acl "C:\Users\user1\desktop\test.exe"
 ...
 </pre>
