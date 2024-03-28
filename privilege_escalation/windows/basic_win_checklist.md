@@ -25,3 +25,5 @@
   * wmic [ENTER] product get name, version [ENTER]
     * varni kell egy kicsit, nem ad egybol eredmenyt
     * lehet erdemes redirectelni az eredmenyt egy file-ba (product get name, version > output.txt)
+  * PS> Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+  * PS> Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
