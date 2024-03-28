@@ -35,6 +35,7 @@
     * C:\> dir "C:\Program Files"
     * C:\> dir "C:\Program Files (x86)"
 ## Searching Files and Folders
+* Searching files by extension
 <pre>
 PS> Get-ChildItem -Path C:\ -Include *.txt,*.ini,*.conf,*.xml,*.json,*.kdbx -File -Recurse -ErrorAction SilentlyContinue
 PS> Get-ChildItem -Path C:\ -Include *.bat,*.vbs,*.js,*.asp,*.aspx,*.js,*.ps1,*.psm1 -File -Recurse -ErrorAction SilentlyContinue
