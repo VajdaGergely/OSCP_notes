@@ -6,6 +6,7 @@ http:\/\/.*
 ## all lines that not start with 'abcd'
 <pre>
 ^(?:(?!abcd).)*$
+^((?!abcd).)*$
 </pre>
 ## string variations with constant prefix
 * matches to the followings:
