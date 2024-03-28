@@ -1,4 +1,5 @@
 # Basic Windows Privilege Escalation Checklist
+## Situational awareness
 * Hostname, username, current user - privileges and group memberships
   * hostname
   * whoami
