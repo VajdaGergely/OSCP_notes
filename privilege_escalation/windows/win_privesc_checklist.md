@@ -20,7 +20,7 @@
   * netstat -ano
   * route print
   * arp -a
-* Shared resources (not only folders, but printers and other hosts too)
+* Shared resources (not only folders, but printers and other hosts too through SMB)
   * net share
   * net view
 * Running processes
