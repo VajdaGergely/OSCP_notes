@@ -38,7 +38,7 @@
 * Searching files by extension
 <pre>
 PS> Get-ChildItem -Path C:\ -Include *.txt,*.ini,*.conf,*.xml,*.json,*.kdbx -File -Recurse -ErrorAction SilentlyContinue
-PS> Get-ChildItem -Path C:\ -Include *.bat,*.vbs,*.js,*.asp,*.aspx,*.js,*.ps1,*.psm1 -File -Recurse -ErrorAction SilentlyContinue
+PS> Get-ChildItem -Path C:\ -Include *.bat,*.vbs,*.js,*.asp,*.aspx,*.js,*.ps1,*.psm1,*.php,*.jar,*.jsp -File -Recurse -ErrorAction SilentlyContinue
 PS> Get-ChildItem -Path C:\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.xlsm,*.doc,*.docx,*.docm,*.ppt,*.pptx -File -Recurse -ErrorAction SilentlyContinue
 PS> Get-ChildItem -Path C:\ -Include *.rar,*.zip,*.iso,*.tar,*.7z -File -Recurse -ErrorAction SilentlyContinue
 </pre>
