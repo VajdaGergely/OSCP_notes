@@ -31,7 +31,7 @@ $ nc -nvlp 5555
 ## Host enumeration
 ### Host enumeration with WMIC
 |a|b|c|
-+-+-+-+
+|-|-|-|
 |aaa|bbb|ccc|
 |111|222|333|
 ### Host enumeration with 
