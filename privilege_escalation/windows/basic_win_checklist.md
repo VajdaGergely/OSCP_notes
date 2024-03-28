@@ -80,3 +80,9 @@ PS> type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\C
 * PEN200.pdf 507. oldal...
 ## Unquoted Service Paths
 * PEN200.pdf 514. oldal...
+## Scheduled Tasks
+* PEN200.pdf 520. oldal...
+## Common vulnerabilites and exploits
+* Juicy Potato
+* Printspoofer
+* 
