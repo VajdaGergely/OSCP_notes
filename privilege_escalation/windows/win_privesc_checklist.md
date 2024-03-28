@@ -14,11 +14,15 @@
   * query user
 * Operating system, version and architecture
   * systeminfo
+  * ver
 * Network information
   * ipconfig /all
   * netstat -ano
   * route print
   * arp -a
+* Shared resources
+  * net share
+  * net view
 * Running processes
   * tasklist
   * tasklist /svc
