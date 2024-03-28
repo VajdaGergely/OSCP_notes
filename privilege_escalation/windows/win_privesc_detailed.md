@@ -31,7 +31,7 @@ $ nc -nvlp 5555
 ## Host enumeration
 ### Host enumeration with WMIC
 |Command|Description|
-|-|-|
+|-------|-----------|
 |wmic qfe get Caption,Description,HotFixID,InstalledOn|Prints the patch level and description of the Hotfixes applied|
 |wmic computersystem get Name,Domain,Manufacturer,Model,Username,Roles /format:List|Displays basic host information to include any attributes within the list|
 |wmic process list /format:list|A listing of all processes on host|
@@ -39,6 +39,4 @@ $ nc -nvlp 5555
 |wmic useraccount list /format:list|Displays information about all local accounts and any domain accounts that have logged into the device|
 |wmic group list /format:list|Information about all local groups|
 |wmic sysaccount list /format:list|Dumps information about any system accounts that are being used as service accounts.|
-![image](https://github.com/VajdaGergely/OSCP_notes/assets/39236093/ffde6c86-3428-4495-b671-20b153684450)
-
 ### Host enumeration with 
