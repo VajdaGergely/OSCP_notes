@@ -15,5 +15,11 @@
   * systeminfo
 * Network information
   * ipconfig /all
-* Installed applications
+  * netstat -ano
+  * route print
+  * arp -a
 * Running processes
+  * tasklist
+  * tasklist /svc
+* Installed applications
+  * wmic [ENTER] 
