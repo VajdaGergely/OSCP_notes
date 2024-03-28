@@ -7,3 +7,11 @@ http:\/\/.*
 <pre>
 ^(?:(?!abcd).)*$
 </pre>
+## string variations with constant prefix
+* matches to the followings:
+  * name123 peter
+  * name123 steve
+  * name123 alice
+<pre>
+(?:name123 )(peter|steve|alice)
+</pre>
