@@ -3,4 +3,7 @@
 <pre>
 http:\/\/.*
 </pre>
-## 
+## all lines that not start with 'abcd'
+<pre>
+^(?:(?!abcd).)*$
+</pre>
