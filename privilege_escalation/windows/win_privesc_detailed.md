@@ -30,7 +30,8 @@ $ nc -nvlp 5555
 </pre>
 ## File permissions
 <pre>
-C:\ icacls "C:\file1.txt"
+<b># get file permissions</b> 
+C:\> icacls "C:\file1.txt"
 </pre>
 <pre>
 <b># resource access level</b>
