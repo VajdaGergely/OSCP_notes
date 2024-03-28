@@ -1,10 +1,11 @@
 # Basic Windows Privilege Escalation Checklist
 ## Situational Awareness
-* Hostname, username, current user - privileges and group memberships
+* Hostname, username, current user - privileges and group memberships, current dir, common dirs, etc...
   * hostname
   * whoami
   * whoami /priv
   * whoami /groups
+  * cd, dir, dir C:\, dir C:\Users, tree /F
 * Existing users and groups
   * net user
   * net user User1
@@ -51,3 +52,5 @@ C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHos
 
 PS> type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
 </pre>
+## Service Binary Hijacking
+* PEN200.pdf 500. oldal...
