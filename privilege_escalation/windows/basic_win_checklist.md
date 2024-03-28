@@ -1,9 +1,9 @@
 # Basic Windows Privilege Escalation Checklist
-## Hostname, username, current user - privileges and group memberships
-* hostname
-* whoami
-* whoami /priv
-* whoami /groups
+* Hostname, username, current user - privileges and group memberships
+  * hostname
+  * whoami
+  * whoami /priv
+  * whoami /groups
 ## Existing users and groups
 * net user
 * net user User1
