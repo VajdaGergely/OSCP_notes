@@ -42,3 +42,12 @@ PS> Get-ChildItem -Path C:\ -Include *.bat,*.vbs,*.js,*.asp,*.aspx,*.js,*.ps1,*.
 PS> Get-ChildItem -Path C:\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.xlsm,*.doc,*.docx,*.docm,*.ppt,*.pptx -File -Recurse -ErrorAction SilentlyContinue
 PS> Get-ChildItem -Path C:\ -Include *.rar,*.zip,*.iso,*.tar,*.7z -File -Recurse -ErrorAction SilentlyContinue
 </pre>
+## Powershell history
+<pre>
+PS> Get-History
+
+PS> (Get-PSReadlineOption).HistorySavePath
+C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+
+PS> type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt
+</pre>
