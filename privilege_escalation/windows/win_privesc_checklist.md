@@ -86,3 +86,11 @@ PS> type C:\Users\dave\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\C
 * Juicy Potato
 * Printspoofer
 * 
+## Usefull sources
+* Relevant HTB Academy modules
+  * Active Directory Enumeration & Attacks
+  * Windows Fundamentals
+  * Introduction To Windows Command Line
+  * Windows Privilege Escalation
+* Other sources
+  * PEN200.pdf (OSCP guide)
