@@ -22,4 +22,6 @@
   * tasklist
   * tasklist /svc
 * Installed applications
-  * wmic [ENTER] 
+  * wmic [ENTER] product get name, version [ENTER]
+    * varni kell egy kicsit, nem ad egybol eredmenyt
+    * lehet erdemes redirectelni az eredmenyt egy file-ba (product get name, version > output.txt)
