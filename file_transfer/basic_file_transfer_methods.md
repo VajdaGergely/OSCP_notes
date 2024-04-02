@@ -42,6 +42,9 @@ C:\> certutil -urlcache -f http://10.10.10.2:8000/file.txt > file.txt
 dolgozzuk ki szepen
 </pre>
 ## SMB file transfer
+* itt jol le van irva az alja fele
+  * van plusz lepes is (net view vagy valami hasonlo, amivel csekkolhato a gep, lehet hogy kell ez is a network discovery-hez...)
+  * https://vk9-sec.com/microsoft-windows-server-2003-sp2-tcp-ip-ioctl-privilege-escalation-ms14-070-cve-2014-4076/
 ## SCP file transfer
 ## Meterpreter file transfer
 ## Other solutions
