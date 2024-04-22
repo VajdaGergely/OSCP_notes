@@ -58,6 +58,7 @@
     * sudo apt install python3-xlrd
     * kell bele plusz 1 sor
       * from io import StringIO
+  * pip install xlrd --upgrade
 <pre>
 <b># victim machine</b>
 C:\> systeminfo
