@@ -55,8 +55,9 @@
 ### method
 * ha python hiba van, akkor
   * python3-al probaljuk meg futtatni
-  * illetve
     * sudo apt install python3-xlrd
+    * kell bele plusz 1 sor
+      * from io import StringIO
 <pre>
 <b># victim machine</b>
 C:\> systeminfo
