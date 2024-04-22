@@ -53,6 +53,7 @@
 # Blog Post: "Introducing Windows Exploit Suggester", https://blog.gdssecurity.com/labs/2014/7/11/introducing-windows-exploit-suggester.html
 </pre>
 ### method
+* ha python hiba van, akkor python3-al probaljuk meg futtatni
 <pre>
 <b># victim machine</b>
 C:\> systeminfo
@@ -60,7 +61,10 @@ C:\> systeminfo
 
 <b># attack machine</b>
 $ ./windows-exploit-suggester.py --update
+
 $ ./windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo sysinfo.txt
+(vagy)
+$ python3 windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo sysinfo.txt
 </pre>
 ## File permissions
 * cmd
