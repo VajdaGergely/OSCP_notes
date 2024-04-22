@@ -39,6 +39,15 @@
   * Listing C - Program Files folders
     * C:\> dir "C:\Program Files"
     * C:\> dir "C:\Program Files (x86)"
+## Windows Exploit Suggester
+<pre>
+<b># victim machine</b>
+C:\> systeminfo
+(copy output to a txt file on attack machine)
+
+<b># attack machine</b>
+$ 
+</pre>
 ## File permissions
 * cmd
 <pre>
