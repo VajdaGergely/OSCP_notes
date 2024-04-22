@@ -42,6 +42,15 @@
 ## Windows Exploit Suggester
 ### info
 * Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
+* ennyi info van rola, a file header reszeben
+<pre>
+# Windows Exploit Suggester
+# revision 3.3, 2017-02-13
+#
+# author: Sam Bertram, Gotham Digital Science
+# contact: labs@gdssecurity.com,sbertram@gdssecurity.com,sammbertram@gmail.com
+# blog post: "Introducing Windows Exploit Suggester", http://blog.gdssecurity.com/
+</pre>
 ### method
 <pre>
 <b># victim machine</b>
