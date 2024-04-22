@@ -50,6 +50,7 @@
 # author: Sam Bertram, Gotham Digital Science
 # contact: labs@gdssecurity.com,sbertram@gdssecurity.com,sammbertram@gmail.com
 # blog post: "Introducing Windows Exploit Suggester", http://blog.gdssecurity.com/
+# Blog Post: "Introducing Windows Exploit Suggester", https://blog.gdssecurity.com/labs/2014/7/11/introducing-windows-exploit-suggester.html
 </pre>
 ### method
 <pre>
@@ -58,7 +59,8 @@ C:\> systeminfo
 (copy output to a txt file on attack machine)
 
 <b># attack machine</b>
-$ 
+$ ./windows-exploit-suggester.py --update
+$ ./windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo sysinfo.txt
 </pre>
 ## File permissions
 * cmd
