@@ -53,7 +53,10 @@
 # Blog Post: "Introducing Windows Exploit Suggester", https://blog.gdssecurity.com/labs/2014/7/11/introducing-windows-exploit-suggester.html
 </pre>
 ### method
-* ha python hiba van, akkor python3-al probaljuk meg futtatni
+* ha python hiba van, akkor
+  * python3-al probaljuk meg futtatni
+  * illetve
+    * sudo apt install python3-xlrd
 <pre>
 <b># victim machine</b>
 C:\> systeminfo
