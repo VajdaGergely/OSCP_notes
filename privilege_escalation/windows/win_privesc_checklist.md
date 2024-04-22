@@ -40,6 +40,9 @@
     * C:\> dir "C:\Program Files"
     * C:\> dir "C:\Program Files (x86)"
 ## Windows Exploit Suggester
+### info
+* Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
+### method
 <pre>
 <b># victim machine</b>
 C:\> systeminfo
