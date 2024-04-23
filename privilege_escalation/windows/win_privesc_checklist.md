@@ -48,6 +48,7 @@
   * errors:
     * E: Package 'python-xlrd' has no installation candidate
   * de ez se jo, mert elvileg python2-vel kene hasznalni, de ahhoz is kell xlrd, illetve pip2 is kene, de egyiket se hagyja felrakni
+  * PIMPMYKALI.SH MEGOLDOTTA!!!!!!!! UTANA MUKODIK!!!!
 ## Windows Exploit Suggester (old)
 ### info
 * Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
