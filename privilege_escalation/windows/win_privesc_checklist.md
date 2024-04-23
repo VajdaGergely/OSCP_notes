@@ -42,6 +42,13 @@
 ## Windows Exploit Suggester (new)
 * deprecated repo
   * https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+  * PIMPMYKALI.SH MEGOLDOTTA HOGY MUKODJON!!!!!!!! UTANA MUKODIK!!!!
+<pre>
+$ ./pimpmykali.sh
+(PRESS 1)
+$ python windows-exploit-suggester.py --update
+$ python windows-exploit-suggester.py --database 2024-04-23-mssb.xlsx --systeminfo sysinfo.txt
+</pre>
 * new repo (new fork of the original)
   * https://github.com/7Ragnarok7/Windows-Exploit-Suggester-2
   * elvileg sima python1-el kene futtatni
@@ -49,6 +56,12 @@
     * E: Package 'python-xlrd' has no installation candidate
   * de ez se jo, mert elvileg python2-vel kene hasznalni, de ahhoz is kell xlrd, illetve pip2 is kene, de egyiket se hagyja felrakni
   * PIMPMYKALI.SH MEGOLDOTTA!!!!!!!! UTANA MUKODIK!!!!
+<pre>
+$ ./pimpmykali.sh
+(PRESS 1)
+$ python windows-exploit-suggester.py --update
+$ python windows-exploit-suggester.py --database 2024-04-23-mssb.xlsx --systeminfo sysinfo.txt
+</pre>
 ## Windows Exploit Suggester (old)
 ### info
 * Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
