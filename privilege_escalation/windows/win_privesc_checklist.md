@@ -44,6 +44,10 @@
   * https://github.com/AonCyberLabs/Windows-Exploit-Suggester
 * new repo (new fork of the original)
   * https://github.com/7Ragnarok7/Windows-Exploit-Suggester-2
+  * elvileg sima python1-el kene futtatni
+  * errors:
+    * E: Package 'python-xlrd' has no installation candidate
+    * 
 ## Windows Exploit Suggester (old)
 ### info
 * Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
