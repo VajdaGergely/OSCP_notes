@@ -39,7 +39,12 @@
   * Listing C - Program Files folders
     * C:\> dir "C:\Program Files"
     * C:\> dir "C:\Program Files (x86)"
-## Windows Exploit Suggester
+## Windows Exploit Suggester (new)
+* deprecated repo
+  * https://github.com/AonCyberLabs/Windows-Exploit-Suggester
+* new repo (new fork of the original)
+  * https://github.com/7Ragnarok7/Windows-Exploit-Suggester-2
+## Windows Exploit Suggester (old)
 ### info
 * Source: (sajnos nincs meg hogy honnan szedtuk, de python file, az tuti)
 * ennyi info van rola, a file header reszeben
