@@ -10,3 +10,5 @@
   * es egy uj file rendszert csinalunk valami adattarolora, ami majd a vegleges fajlrendszer lesz a napi hasznalatban
   * es akkor a live kornyezetbol atlepunk az uj eszkozre pl /mnt/valami...
   * es akkor mar a fel-mount-olt kornyezetben dolgozunk
+## no nano in arch-chroot
+* https://bbs.archlinux.org/viewtopic.php?id=156519
