@@ -6,10 +6,11 @@
 * https://unix.stackexchange.com/questions/120221/gpt-or-mbr-how-do-i-know
 # partitions and boot loader
 * mindenhol az egyszerubbet valasztottuk
-  * MBR, BIOS
+  * MBR, grub, BIOS
 * kesobb megprobalhatjuk a bonyolultabb dolgokat is]
   * GPT (MBR helyett)
   * UEFI (BIOS helyett)
+  * grub helyett esetleg valami mas
 # chroot
 * megvaltoztatjuk a root konyvtarat es onnantol minden amit csinalunk, az az uj root konyvtarra vonatkozik majd
 * es a file rendszer kulso resze elerhetetlenne valik
