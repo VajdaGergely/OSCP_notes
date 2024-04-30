@@ -8,7 +8,11 @@
 * es a partitionalasnal
   * a boot partition megy a sima primary partition-re
   * es utana pedig egy extended partition kell
-  * es arra megy majd egy logikai partition es ugy fog csak mukodni szepen nekunk!!!
+  * es arra megy majd egy logikai partition es ugy fog csak mukodni szepen nekunk!!! 
+<pre>
+$ pacman -S grub efibootmgr
+$ grub-install --target=x86_64-efi --efi-directory=esp --bootloader-id=GRUB
+</pre>
 # partitions and boot loader
 * mindenhol az egyszerubbet valasztottuk
   * MBR, grub, BIOS
