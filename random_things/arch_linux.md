@@ -4,6 +4,9 @@
 * https://phoenixnap.com/kb/swap-partition
 * https://unix.stackexchange.com/questions/120221/gpt-or-mbr-how-do-i-know
 # Update
+* ez alapjan csinaljuk
+  * https://www.youtube.com/watch?v=FudOL0-B9Hs&ab_channel=EF-LinuxMadeSimple
+# Update (megse kell)
 * kell a /boot/efi mappa
 * es a partitionalasnal
   * a boot partition megy a sima primary partition-re
