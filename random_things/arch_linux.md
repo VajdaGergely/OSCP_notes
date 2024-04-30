@@ -1,9 +1,14 @@
-# Arch Linux
-## sources
+# Sources
 * https://archlinux.org/download/
 * https://wiki.archlinux.org/title/Installation_guide
 * https://phoenixnap.com/kb/swap-partition
 * https://unix.stackexchange.com/questions/120221/gpt-or-mbr-how-do-i-know
+# Update
+* kell a /boot/efi mappa
+* es a partitionalasnal
+  * a boot partition megy a sima primary partition-re
+  * es utana pedig egy extended partition kell
+  * es arra megy majd egy logikai partition es ugy fog csak mukodni szepen nekunk!!!
 # partitions and boot loader
 * mindenhol az egyszerubbet valasztottuk
   * MBR, grub, BIOS
