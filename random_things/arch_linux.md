@@ -6,9 +6,13 @@
 # Update
 * A grub+bios+mbr keszen van
 * Csapassuk a grub+uefi+gpt-t
-## Important info for patitioning
-* UEFI systems typically need an EFI system partition.
-* BIOS systems that are partitioned with GPT require a BIOS boot partition if GRUB is used as the bootloader.
+## EFI system partition needed
+* UEFI + GPT
+  * UEFI systems typically need an EFI system partition.
+* BIOS + GPT
+  * BIOS systems that are partitioned with GPT require a BIOS boot partition if GRUB is used as the bootloader.
+## Boot partition needed (maybe the EFI and the boot partition are the same partitions we are talking about)
+* A separate physical (in the main partition table of the disk, not under LVM, software RAID or in a file system subvolume etc.) /boot partition is needed unless your boot loader is capable of accessing the /boot directory that resides in /.
 # Update
 * ez alapjan csinaljuk
   * https://www.youtube.com/watch?v=FudOL0-B9Hs&ab_channel=EF-LinuxMadeSimple
