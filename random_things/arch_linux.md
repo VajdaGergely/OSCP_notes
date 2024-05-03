@@ -18,7 +18,7 @@
 # UEFI + GPT layout
 **UEFI/GPT layout example**
 |Mount point on the installed system|Partition|Partition type GUID|Suggested size|
-+-----+-----+----+---+
+|---|---|---|---|
 |/boot or /efi1|/dev/sda1|C12A7328-F81F-11D2-BA4B-00A0C93EC93B: EFI system partition|1 GiB|
 |[SWAP]|/dev/sda2|0657FD6D-A4AB-43C4-84E5-0933C84B4F4F: Linux swap|At least 4 GiB or the size of RAM to use hibernation|
 |/|/dev/sda3|4F68BCE3-E8CD-4DB1-96E7-FBCAF984B709: Linux x86-64 root (/)|Remainder of the device. At least 23–32 GiB.|
