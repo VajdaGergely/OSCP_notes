@@ -7,8 +7,8 @@
 * A grub+bios+mbr keszen van
 * Csapassuk a grub+uefi+gpt-t
 ## Important info for patitioning
-UEFI systems typically need an EFI system partition.
-BIOS systems that are partitioned with GPT require a BIOS boot partition if GRUB is used as the bootloader.
+* UEFI systems typically need an EFI system partition.
+* BIOS systems that are partitioned with GPT require a BIOS boot partition if GRUB is used as the bootloader.
 # Update
 * ez alapjan csinaljuk
   * https://www.youtube.com/watch?v=FudOL0-B9Hs&ab_channel=EF-LinuxMadeSimple
