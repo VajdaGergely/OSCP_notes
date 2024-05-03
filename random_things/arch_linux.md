@@ -13,6 +13,8 @@
   * BIOS systems that are partitioned with GPT require a BIOS boot partition if GRUB is used as the bootloader.
 ## Boot partition needed (probably the EFI and the boot partition are the same partitions we are talking about)
 * A separate physical (in the main partition table of the disk, not under LVM, software RAID or in a file system subvolume etc.) /boot partition is needed unless your boot loader is capable of accessing the /boot directory that resides in /.
+## EFI and boot
+* When using an EFI system partition as /boot, the requirements are as described in the EFI system partition article—the correct partition type must be set.
 # Update
 * ez alapjan csinaljuk
   * https://www.youtube.com/watch?v=FudOL0-B9Hs&ab_channel=EF-LinuxMadeSimple
