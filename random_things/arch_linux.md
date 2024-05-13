@@ -3,6 +3,8 @@
 * https://wiki.archlinux.org/title/Installation_guide
 * https://phoenixnap.com/kb/swap-partition
 * https://unix.stackexchange.com/questions/120221/gpt-or-mbr-how-do-i-know
+# Install arch linux with UEFI + GPT
+* source: https://www.youtube.com/watch?v=xMjI8pypeJE&ab_channel=DWIX
 # Update
 * A grub+bios+mbr keszen van
 * Csapassuk a grub+uefi+gpt-t
