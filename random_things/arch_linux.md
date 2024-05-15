@@ -3,8 +3,13 @@
 * https://wiki.archlinux.org/title/Installation_guide
 * https://phoenixnap.com/kb/swap-partition
 * https://unix.stackexchange.com/questions/120221/gpt-or-mbr-how-do-i-know
+# Install xfce GUI on linux arch
+* source: https://www.youtube.com/watch?v=FfGzL9zhPoU&ab_channel=DanHenry
 # Install arch linux with UEFI + GPT
 * source: https://www.youtube.com/watch?v=xMjI8pypeJE&ab_channel=DWIX
+  * GUI-t ne ez alapjan rakjuk fel
+  * hanem az alabbi alapjan
+    * https://www.youtube.com/watch?v=FfGzL9zhPoU&ab_channel=DanHenry
 # Update
 * A grub+bios+mbr keszen van
 * Csapassuk a grub+uefi+gpt-t
