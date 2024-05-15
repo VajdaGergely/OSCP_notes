@@ -1,3 +1,6 @@
+# Progress
+* OS install GUI-val pipa
+* 
 # Sources
 * https://archlinux.org/download/
 * https://wiki.archlinux.org/title/Installation_guide
