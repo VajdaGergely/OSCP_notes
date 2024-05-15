@@ -1,6 +1,10 @@
+# A feladat mashogy nez ki
+* vmware kell!!!
+* le kell dokumentalni az egeszet!!!
+* mas GUI kell
+* stb...
 # Progress
 * OS install GUI-val pipa
-* 
 # Sources
 * https://archlinux.org/download/
 * https://wiki.archlinux.org/title/Installation_guide
