@@ -1,3 +1,9 @@
+# Rendes feladat
+* sources:
+* basic (GUI-t mar ne rakjuk fel!!!!)
+  * https://www.youtube.com/watch?v=xMjI8pypeJE&ab_channel=DWIX
+* encrypted partitions
+  * https://devconnected.com/how-to-encrypt-partition-on-linux/
 # A feladat mashogy nez ki
 * vmware kell!!!
 * le kell dokumentalni az egeszet!!!
