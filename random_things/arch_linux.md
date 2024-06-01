@@ -9,6 +9,8 @@
 * le kell dokumentalni az egeszet!!!
 * mas GUI kell
 * stb...
+# Install KDE GUI
+* https://www.youtube.com/watch?v=Csc8Y5_YLRE&ab_channel=DanHenry
 # Progress
 * OS install GUI-val pipa
 # Sources
