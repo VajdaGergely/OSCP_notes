@@ -4,6 +4,12 @@
   * https://www.youtube.com/watch?v=xMjI8pypeJE&ab_channel=DWIX
 * encrypted partitions
   * https://devconnected.com/how-to-encrypt-partition-on-linux/
+# Debuggolas
+* sima external hard drive-ot auto-mount-olni (pipa)
+* luks drive-ot hozzaadni, ami kibontja magat boot-olaskor (pipa)
+* luks drive auto-mount
+  * error-t kapok
+  * valahogy debuggolni kene
 # A feladat mashogy nez ki
 * vmware kell!!!
 * le kell dokumentalni az egeszet!!!
