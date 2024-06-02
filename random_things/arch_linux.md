@@ -10,6 +10,8 @@
 * luks drive auto-mount
   * error-t kapok
   * valahogy debuggolni kene
+  * pl chown-al allitsuk be a sima user-re, a group is legyen az ove, nezzuk is meg, hogy kepes e belemenni
+  * adjunk neki jogot hogy irja olvassa vegrehajtsa
 # A feladat mashogy nez ki
 * vmware kell!!!
 * le kell dokumentalni az egeszet!!!
