@@ -18,4 +18,5 @@
 # PyPI
 * official python repository for downloading python modules
 # pip
-* package manager
+* official python package manager
+* it uses the official PyPI repo to download packages
