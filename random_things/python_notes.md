@@ -1,3 +1,7 @@
+# Versions
+* 1.X -> mar nem hasznaljuk
+* 2.X, pl 2.7 -> nem supportalt, de meg sok helyen hasznaljak, regi exploitokhoz pl
+* 3.X -> az uj python 3.10 alatt mar nem supportolt, afolott igen
 # Python implementations
 * CPython -> ez a sima python
 * Jython -> python kodbol java byte kod lesz es jvm-ben tud lefutni
