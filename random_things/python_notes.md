@@ -20,3 +20,5 @@
 # pip
 * official python package manager
 * it uses the official PyPI repo to download packages
+* it has version 2, 3 and 3.4
+* there is no pip for Python1 (we don't use Python 1 at all)
