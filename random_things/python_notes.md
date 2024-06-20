@@ -15,4 +15,7 @@
   * de ez nem a hivatalos python
   * a kompatibilitas altalaban jo, de van hogy nem tokeletes
   * ha valami exploit-hoz ez kell, akkor ezzel futtassuk majd es ne a sima pythonnal
-* 
+# PyPI
+* official python repository for downloading python modules
+# pip
+* package manager
