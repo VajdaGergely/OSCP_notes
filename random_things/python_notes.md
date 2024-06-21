@@ -22,3 +22,10 @@
 * it uses the official PyPI repo to download packages
 * it has version 2, 3 and 3.4
 * there is no pip for Python1 (we don't use Python 1 at all)
+# virtualenv
+* lehet vele csinalni virtualis kornyezetet
+* venv -> a python3-as uj valtozata
+  * bekerult a standard library-be es mar nem kulon modul
+  * kevesebb dolgot tud mint a virtualenv
+  * a virtualenv meg mindig nepszerubb
+  * Python2-hoz pl nem hasznalhato
