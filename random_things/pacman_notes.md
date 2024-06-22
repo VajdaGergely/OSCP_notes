@@ -17,3 +17,6 @@
 |pacman -Q &lt;package_name&gt; -d|dependencies of package|
 |pacman -Q &lt;package_name&gt; -l|all files owned by a package|
 |pacman -Q &lt;random_file&gt; -o|show the package name that a random file is owned by (which package a random file is belonging to...)|
+## default location of downloaded packages
+* /etc/pacman.conf -> CacheDir row
+  * e.g. /var/cache/pacman/pkg/
