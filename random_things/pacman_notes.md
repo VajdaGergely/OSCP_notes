@@ -2,6 +2,7 @@
 |command|description|
 |-------|-----------|
 |pacman -S &lt;package_name&gt;|install package with dependencies from official repo|
+|pacman -S &lt;package_name&gt; -w|jut download a package with dependencies but not install it!!!|
 |pacman -S "bash>=3.2"|install specific version of package (quotes are needed!!!)|
 |pacman -Syu|update system|
 |pacman -Q|list installed packages|
