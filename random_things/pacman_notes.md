@@ -1,4 +1,6 @@
 # pacman (Arch linux package manager)
+## pacman commands
+### available packages in the repository (remote packages)
 |command|description|
 |-------|-----------|
 |pacman -Syu|update system|
@@ -6,7 +8,8 @@
 |pacman -S "bash>=3.2"|install specific version of package (quotes are needed!!!)|
 |pacman -S &lt;package_name&gt; -w|just download a package with dependencies but not install it!!!|
 |pacman -S &lt;package_name&gt; -i|just show detailed information of the package but not download and not install it!!|
-|a|b|
+### installed packages (local packages)
+|command|description|
 |-------|-----------|
 |pacman -Q|list installed packages|
 |pacman -Q &lt;package_name&gt; -i|detailed information of a local package|
