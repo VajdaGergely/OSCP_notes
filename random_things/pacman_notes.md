@@ -1,7 +1,8 @@
 # pacman (Arch linux package manager)
 |command|description|
 |-------|-----------|
-|pacman -S|install package with dependencies from PyPI repo|
+|pacman -S|install package with dependencies from official repo|
+|pacman -S "bash>=3.2"|install specific version of package (quotes are needed!!!)|
 |pacman -Syu|update system|
 |pacman -Q|list installed packages|
 |pacman -Q &lt;package_name&gt; -c|changelog of package|
