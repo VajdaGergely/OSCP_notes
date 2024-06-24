@@ -1,3 +1,11 @@
+# install package inside virtualenv
+<pre>
+$ git clone <repo> <repodir>
+$ cd &lt;repodir&gt;
+$ virtualenv .venv
+$ . .venv/bin/activate
+$ pip install -e .
+</pre>
 # Versions
 * 1.X -> mar nem hasznaljuk
 * 2.X, pl 2.7 -> nem supportalt, de meg sok helyen hasznaljak, regi exploitokhoz pl
