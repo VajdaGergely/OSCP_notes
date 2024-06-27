@@ -1,8 +1,27 @@
+# History of web frameworks
+* web servers + static pages
+  * html files, pictures, ...
+* web servers + cgi scripts + applications servers
+  * dynamic web content
+  * forms, url querystrings
+  * application servers
+    * binary code (C, C++ compiled to exe) -> OS futtatja
+    * scripts (perl, python, ruby) -> language specific interpreter (e.g. python interpreter)
+* web severs + web frameworks
+  * web applications
+  * multimedia, client side scripts, users, sessions, ...
+  * IDE-s
+    * integrated server / language development environments with new web specific languages
+    * ColdFusion, PHP, ASP
+    * libraries for specific tasks
+  * Full stack frameworks
+    * mindent is tudnak
+    * 
 # Web stack
 * web server side
   * web server, forward and reverse proxies, load balancers, cache servers, WAFs, ...
 * application side
-  * cgi scripts / framework
+  * cgi scripts / web frameworks
 * other components
   * databases, ...
 # Web servers vs reverse proxies
