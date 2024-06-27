@@ -22,3 +22,16 @@
     * this makes an overhead on CPU and memory
     * solutions to CGI computational overhead
       * using compiled code (C, C++) instead of scripts ran by interpreter (PHP, Perl, Python)
+      * web server extensions
+        * Apache modules (mod_perl, mod_php, mod_python)
+        * Netscape (NSAPI plugins)
+        * IIS (ISAPI plugins)
+        * These allow long-running application processes handling more request nad hosted within the web server
+          * ?? csak azt interpreter resze - a konkret kod futtatas megy at a php-nek, python-nak, ... es a process ami futtatja oket, az folyamatosan fut... ??
+      * FastCGI, SCGI, AJP
+        * one long running process can handle more reuquest
+        * run separately from the web server
+        * web server handles the static content directly
+        * dinamic contents are handled by the CGI stuff
+      * WSGI (Web Server Gateway Interface)
+        * 
