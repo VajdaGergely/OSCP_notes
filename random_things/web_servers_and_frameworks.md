@@ -33,5 +33,14 @@
         * run separately from the web server
         * web server handles the static content directly
         * dinamic contents are handled by the CGI stuff
-      * WSGI (Web Server Gateway Interface)
-        * 
+      * WSGI (Web Server Gateway Interface) (written in Python)
+        * Apache mod_wsgi
+        * Gunicorn web server (with nginx and a python framework like django)
+* WSGI
+  * has two sites
+    * server/gateway side
+      * full web server (Apache, Nginx)
+      * or lightweight application server that can communicate with a web server (itt valszeg kulso komponens lesz a web server ami kivul van a WSGI-n)
+    * application/framework side
+      * valami ami python kodot tud lefuttatni - python framework vagy mas egyeb, amiben ott van a python interpreter
+  * 
