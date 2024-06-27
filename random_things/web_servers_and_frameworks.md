@@ -1,10 +1,14 @@
 # Protocols for linking web server and application server
 * legacy solution
-  * webservers used custom code for implementing CGI capabilities to pass web server requests to CGI scripts
-  * later CGI scripts were changed by application server???
-* FastCGI
-* AJP (Apache JServ)
-* WSGI
+  * CGI
+    * web servers passed requests to cgi scripts
+    * cgi scripts runned by code interpreter (php, perl, ...) or by OS stuff if it is compiled code (C, C++)
+* new solutions
+  * FastCGI
+  * AJP (Apache JServ)
+  * WSGI
+  * Here not cgi scripts runned but more complex requests sent (like api requests) to the application server
+    * Application server probably is a kind of big framework that has an interpreter to run code and to other complex tasks
 # Web servers, web frameworks, WSGI
 * web servers
   * e.g. Apache, Nginx
