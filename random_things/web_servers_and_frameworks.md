@@ -17,5 +17,8 @@
   * PHP, Python
 * CGI
   * an interface specification that enables web servers to execute an external program to process HTTP requests
-  * often written in a scripting language (CGI scripts), also can include compiled code
-  * 
+  * often written in a scripting language (CGI scripts), also can include compiled code (e.g. C, C++ code)
+  * every request make a new process created and destroyed after run
+    * this makes an overhead on CPU and memory
+    * solutions to CGI computational overhead
+      * using compiled code (C, C++) instead of scripts ran by interpreter (PHP, Perl, Python)
