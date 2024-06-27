@@ -1,3 +1,10 @@
+# Web stack
+* web server side
+  * web server, forward and reverse proxies, load balancers, cache servers, WAFs, ...
+* application side
+  * cgi scripts / framework
+* other components
+  * databases, ...
 # Web servers vs reverse proxies
 * bizonyos ertelemben a web serverek reverse proxykent mukodnek hogyha ugy hasznaljuk oket
 * kb hasonlo oldalon mukodnek es el vannak valasztva a masik oldaltol a framework oldaltol
