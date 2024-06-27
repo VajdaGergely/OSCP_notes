@@ -50,6 +50,11 @@
     * es akkor kell valami framework-szeru cucc
       * ami alapszinten futtatni kepes a python kodot (mint egy sima python cgi)
       * magasabb szinten meg kepes mindenfele middleware funkciokat is ellatni - routing, load balancing, ...
+        * ez valszeg lehet beepitett cucc a framework-be vagy lehet valami kulso cucc is, ami egy kulonallo komponens
       * illetve mindenfele modern web alkalmazas kenyelmes funkcioit is kepes kezelni
         * bonyolult cookie meg session kezeles - komplett user es role management, elore megirt login, logout, stb funkciok
         * mvc, crud, omr, egyeb magasabb szintu webes cuccok elore elkeszitve...
+    * emelett kell valami web server oldali cucc is
+      * ez lehet valami kulso cucc is - apache, stb
+      * vagy lehet talan valami beepitett cucc is, ha van olyan framework ami ilyet is tud (vagy ha van built in egyszeru - ami pont eleg)
+      * illetve lehet kulon valami load balancer - proxy - cache server - stb berakva vagy a web server-be vagy attol kulon szedve tovabbi komponenskent
