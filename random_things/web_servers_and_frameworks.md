@@ -45,4 +45,11 @@
       * valami ami python kodot tud lefuttatni - python framework vagy mas egyeb, amiben ott van a python interpreter
   * web frameworks that support WSGI
     * Django, Flask, Gunicorn, mod_wsgi (can be used with Apache), Werkzeug
-* 
+  * mi a lenyeg a mi ertelmezesunk szerint
+    * valszeg az a lenyege a WSGI-nek, hogy python kodot lehessen minden szarral futtatni
+    * es akkor kell valami framework-szeru cucc
+      * ami alapszinten futtatni kepes a python kodot (mint egy sima python cgi)
+      * magasabb szinten meg kepes mindenfele middleware funkciokat is ellatni - routing, load balancing, ...
+      * illetve mindenfele modern web alkalmazas kenyelmes funkcioit is kepes kezelni
+        * bonyolult cookie meg session kezeles - komplett user es role management, elore megirt login, logout, stb funkciok
+        * mvc, crud, omr, egyeb magasabb szintu webes cuccok elore elkeszitve...
