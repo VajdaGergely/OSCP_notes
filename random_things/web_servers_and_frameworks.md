@@ -1,3 +1,9 @@
+# Web servers vs reverse proxies
+* bizonyos ertelemben a web serverek reverse proxykent mukodnek hogyha ugy hasznaljuk oket
+* kb hasonlo oldalon mukodnek es el vannak valasztva a masik oldaltol a framework oldaltol
+* valojaban minden web stack-nel valszeg ket oldal van
+  * az egyik ahol a HTTP requestek es response-ok menedzselese tortenik
+  * es a masik oldal, ahol a kod futtatas tortenik, az alkalmazas logikai dolgai
 # Protocols for linking web server and application server
 * legacy solution
   * CGI
