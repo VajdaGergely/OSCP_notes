@@ -43,4 +43,6 @@
       * or lightweight application server that can communicate with a web server (itt valszeg kulso komponens lesz a web server ami kivul van a WSGI-n)
     * application/framework side
       * valami ami python kodot tud lefuttatni - python framework vagy mas egyeb, amiben ott van a python interpreter
-  * 
+  * web frameworks that support WSGI
+    * Django, Flask, Gunicorn, mod_wsgi (can be used with Apache), Werkzeug
+* 
