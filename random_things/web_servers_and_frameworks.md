@@ -335,18 +335,18 @@ Nginx uWSGI Django Python
 
 
 -------------------------------------
-Node.js allows the creation of web servers and networking tools using JavaScript and a collection of "modules" that handle various core functionalities.[14][17][30][31][32] Modules are provided for file system I/O, networking (DNS, HTTP, TCP, TLS/SSL or UDP), binary data (buffers), cryptography functions, data streams and other core functions.[17][31][33] Node.js's modules use an API designed to reduce the complexity of writing server applications.[17][31]
+Node.js allows the creation of web servers and networking tools using JavaScript and a collection of "modules" that handle various core functionalities. Modules are provided for file system I/O, networking (DNS, HTTP, TCP, TLS/SSL or UDP), binary data (buffers), cryptography functions, data streams and other core functions. Node.js's modules use an API designed to reduce the complexity of writing server applications.
 
 
-Node.js is primarily used to build network programs such as web servers.[30] The most significant difference between Node.js and PHP is that most functions in PHP block until completion (commands execute only after previous commands finish), while Node.js functions are non-blocking (commands execute concurrently or even in parallel,[36][37][improper synthesis?] and use callbacks to signal completion or failure).[30]
+Node.js is primarily used to build network programs such as web servers. The most significant difference between Node.js and PHP is that most functions in PHP block until completion (commands execute only after previous commands finish), while Node.js functions are non-blocking (commands execute concurrently or even in parallel,[improper synthesis?] and use callbacks to signal completion or failure).
 
 
-Node.js enables development of fast web servers in JavaScript using event-driven programming.[17] Developers can create scalable servers without using threading by using a simplified model that uses callbacks to signal the completion of a task.[17][page needed] Node.js connects the ease of a scripting language (JavaScript) with the power of Unix network programming.[17]
+Node.js enables development of fast web servers in JavaScript using event-driven programming. Developers can create scalable servers without using threading by using a simplified model that uses callbacks to signal the completion of a task.[page needed] Node.js connects the ease of a scripting language (JavaScript) with the power of Unix network programming.
 
-Node.js was built on top of Google's V8 JavaScript engine since it was open-sourced under the BSD license, and it contains comprehensive support for fundamental protocols such as HTTP, DNS and TCP.[14]
+Node.js was built on top of Google's V8 JavaScript engine since it was open-sourced under the BSD license, and it contains comprehensive support for fundamental protocols such as HTTP, DNS and TCP.
 
 -------------------------------------
-Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs.[3] It has been called the de facto standard server framework for Node.js.[4]
+Express.js, or simply Express, is a back end web application framework for building RESTful APIs with Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.
 
 -------------------------------------
 Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.
